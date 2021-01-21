@@ -1,7 +1,10 @@
 package resources;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -12,6 +15,10 @@ public class base {
 
     public WebDriver driver;
     public Properties prop;
+
+    public String userFullName; // Dependency Injection - needed to share a state between different Steps with a .feature
+
+    // Maven dependency for cucumber-picocontainer is needed in the pom.xml
 
     public WebDriver initialiseDriver() throws IOException {
 
@@ -29,5 +36,11 @@ public class base {
         driver.manage().window().maximize();
         return driver;
     }
+
+    public void waitExplicitlyForExpectedConditions(int timeoutInSeconds, String locatorElementForCSS){
+        WebDriverWait wait= new WebDriverWait(driver, timeoutInSeconds);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(locatorElementForCSS)));
+    }
+
 
 }
