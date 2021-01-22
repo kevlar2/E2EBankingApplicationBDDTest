@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T13:18:46.884Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7414524300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 240356600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2630342100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in the login page of the para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157578700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a valid autotester and password with Auto Tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "autotester",
+                  "offset": 16
+                },
+                {
+                  "val": "password",
+                  "offset": 31
+                },
+                {
+                  "val": "Auto Tester",
+                  "offset": 45
+                }
+              ],
+              "location": "resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1152646400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Log in",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 966179400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T13:18:59.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6494789400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 239358900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2236787600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in the login page of the para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185504000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a valid autotester2 and password2 with Auto Tester 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "autotester2",
+                  "offset": 16
+                },
+                {
+                  "val": "password2",
+                  "offset": 32
+                },
+                {
+                  "val": "Auto Tester 2",
+                  "offset": 47
+                }
+              ],
+              "location": "resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 847753400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Log in",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 800861300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T13:19:10.383Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6648474100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 244347300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2456433400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am in the login page of the para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171540500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter a valid taunewtester and password with Tau New Tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "taunewtester",
+                  "offset": 16
+                },
+                {
+                  "val": "password",
+                  "offset": 33
+                },
+                {
+                  "val": "Tau New Tester",
+                  "offset": 47
+                }
+              ],
+              "location": "resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1021275200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Log in",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 737027700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to log in successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/feature/Login.feature",
+    "tags": []
+  }
+]
