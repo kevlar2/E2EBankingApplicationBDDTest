@@ -1,2 +1,3 @@
+resources\StepDefinitions\RegistrationSteps.class
 resources\StepDefinitions\LoginSteps.class
 runners\RunCucumberTest.class

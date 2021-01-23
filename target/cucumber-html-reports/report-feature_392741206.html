@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 1) - Feature: Login Functionality</title>
+<title>Cucumber Reports (no 1) - Feature: Customer Registration</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>E2E-Banking-Application-BDD-Test</td>
               <td>1</td>
-            <td>22 Jan 2021, 13:19</td>
+            <td>23 Jan 2021, 22:56</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Login Functionality</td>
-          <td      class="passed"    >12</td>
+          <td class="tagname">Customer Registration</td>
+          <td      class="passed"    >18</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">12</td>
+          <td class="total">18</td>
 
           <td  class="passed"    >3</td>
           <td >0</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="13363929700">13.363</td>
+          <td class="duration" data-value="17485804300">17.485</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -175,14 +175,14 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Feature</span>
-  <span class="name">Login Functionality</span>
+  <span class="name">Customer Registration</span>
   
 
   </div>
 
         <div class="description indention">  In order to do internet banking
-  As a valid Para Bank customer
-  I want to log in successfully</div>
+  As a new Para Bank customer
+  I want to register for internet banking</div>
 
         <div class="elements inner-level">
                       
@@ -193,14 +193,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">4.906</span>
+  <span class="lead-duration duration">6.266</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Successful Registration</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -231,7 +231,23 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">7.414</span>
+  <span class="lead-duration duration">7.984</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
+                        
+  <span class="lead-duration duration">7.183</span>
 
           </div>
 
@@ -265,9 +281,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">2.630</span>
+  <span class="lead-duration duration">2.782</span>
 
 </div>
 
@@ -291,9 +307,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">autotester</span> and <span class="argument">password</span> with <span class="argument">Auto Tester</span></span>
+  <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">0.157</span>
+  <span class="lead-duration duration">0.869</span>
 
 </div>
 
@@ -316,10 +332,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I enter my <span class="argument">Auto</span> , <span class="argument">Tester</span> and <span class="argument">autotester</span> ,<span class="argument">password</span></span>
   
-  <span class="lead-duration duration">1.152</span>
+  <span class="lead-duration duration">0.430</span>
 
 </div>
 
@@ -343,9 +359,70 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.966</span>
+  <span class="lead-duration duration">0.539</span>
+
+</div>
+
+        
+
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Putney High Road</td>
+                                  <td>Putney</td>
+                                  <td>London</td>
+                                  <td>135647</td>
+                                  <td>2454748484</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click on register button</span>
+  
+  <span class="lead-duration duration">0.967</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be logged in</span>
+  
+  <span class="lead-duration duration">0.677</span>
 
 </div>
 
@@ -388,9 +465,25 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">0.183</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.tearDown()</span>
                         
-  <span class="lead-duration duration">0.240</span>
+  <span class="lead-duration duration">0.196</span>
 
           </div>
 
@@ -415,14 +508,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">4.070</span>
+  <span class="lead-duration duration">5.831</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Successful Registration</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -453,7 +546,23 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">6.494</span>
+  <span class="lead-duration duration">6.565</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
+                        
+  <span class="lead-duration duration">6.649</span>
 
           </div>
 
@@ -487,9 +596,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">2.236</span>
+  <span class="lead-duration duration">2.898</span>
 
 </div>
 
@@ -513,9 +622,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">autotester2</span> and <span class="argument">password2</span> with <span class="argument">Auto Tester 2</span></span>
+  <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">0.185</span>
+  <span class="lead-duration duration">0.854</span>
 
 </div>
 
@@ -538,10 +647,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I enter my <span class="argument">Auto</span> , <span class="argument">Tester 2</span> and <span class="argument">autotester2</span> ,<span class="argument">password2</span></span>
   
-  <span class="lead-duration duration">0.847</span>
+  <span class="lead-duration duration">0.407</span>
 
 </div>
 
@@ -565,9 +674,70 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.800</span>
+  <span class="lead-duration duration">0.407</span>
+
+</div>
+
+        
+
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Putney High Road</td>
+                                  <td>Putney</td>
+                                  <td>London</td>
+                                  <td>135647</td>
+                                  <td>2454748484</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click on register button</span>
+  
+  <span class="lead-duration duration">0.397</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be logged in</span>
+  
+  <span class="lead-duration duration">0.866</span>
 
 </div>
 
@@ -610,9 +780,25 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">0.227</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.tearDown()</span>
                         
-  <span class="lead-duration duration">0.239</span>
+  <span class="lead-duration duration">0.170</span>
 
           </div>
 
@@ -637,14 +823,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">4.386</span>
+  <span class="lead-duration duration">5.387</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Successful Registration</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -675,7 +861,23 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">6.648</span>
+  <span class="lead-duration duration">6.701</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
+                        
+  <span class="lead-duration duration">6.551</span>
 
           </div>
 
@@ -709,9 +911,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">2.456</span>
+  <span class="lead-duration duration">2.737</span>
 
 </div>
 
@@ -735,9 +937,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">taunewtester</span> and <span class="argument">password</span> with <span class="argument">Tau New Tester</span></span>
+  <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">0.171</span>
+  <span class="lead-duration duration">0.528</span>
 
 </div>
 
@@ -760,10 +962,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I enter my <span class="argument">Tau</span> , <span class="argument">New Tester</span> and <span class="argument">taunewtester</span> ,<span class="argument">password</span></span>
   
-  <span class="lead-duration duration">1.021</span>
+  <span class="lead-duration duration">0.518</span>
 
 </div>
 
@@ -787,9 +989,70 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.737</span>
+  <span class="lead-duration duration">0.433</span>
+
+</div>
+
+        
+
+
+        
+
+
+                  <table class="step-arguments">
+                          <tr>
+                                  <td>Putney High Road</td>
+                                  <td>Putney</td>
+                                  <td>London</td>
+                                  <td>135647</td>
+                                  <td>2454748484</td>
+                              </tr>
+                      </table>
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click on register button</span>
+  
+  <span class="lead-duration duration">0.579</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be logged in</span>
+  
+  <span class="lead-duration duration">0.589</span>
 
 </div>
 
@@ -832,9 +1095,25 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                        
+  <span class="lead-duration duration">0.111</span>
+
+          </div>
+
+                      
+
+          
+                    
+          
+  
+        </div>
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.LoginSteps.tearDown()</span>
                         
-  <span class="lead-duration duration">0.244</span>
+  <span class="lead-duration duration">0.141</span>
 
           </div>
 

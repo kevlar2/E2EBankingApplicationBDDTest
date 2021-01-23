@@ -3,26 +3,44 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-22T13:18:46.884Z",
+        "start_timestamp": "2021-01-23T22:54:48.886Z",
         "before": [
           {
             "result": {
-              "duration": 7414524300,
+              "duration": 7984067100,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
             }
+          },
+          {
+            "result": {
+              "duration": 7183368500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
+            }
           }
         ],
-        "line": 17,
-        "name": "Login Successful",
+        "line": 21,
+        "name": "Successful Registration",
         "description": "",
-        "id": "login-functionality;login-successful;;2",
+        "id": "customer-registration;successful-registration;;2",
         "after": [
           {
             "result": {
-              "duration": 240356600,
+              "duration": 183509200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196474400,
               "status": "passed"
             },
             "match": {
@@ -35,7 +53,474 @@
         "steps": [
           {
             "result": {
-              "duration": 2630342100,
+              "duration": 2782109200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 869518300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on register link",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430931200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter my Auto , Tester and autotester ,password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Auto",
+                  "offset": 11
+                },
+                {
+                  "val": "Tester",
+                  "offset": 18
+                },
+                {
+                  "val": "autotester",
+                  "offset": 29
+                },
+                {
+                  "val": "password",
+                  "offset": 41
+                }
+              ],
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 539560800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my street, city, state, zipcode and security security number",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Putney High Road",
+                  "Putney",
+                  "London",
+                  "135647",
+                  "2454748484"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967499300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on register button",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677189200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be logged in",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T22:55:10.830Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6565032300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6649509400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Successful Registration",
+        "description": "",
+        "id": "customer-registration;successful-registration;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 227393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 170545800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2898252100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854715500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on register link",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 407058800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter my Auto , Tester 2 and autotester2 ,password2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Auto",
+                  "offset": 11
+                },
+                {
+                  "val": "Tester 2",
+                  "offset": 18
+                },
+                {
+                  "val": "autotester2",
+                  "offset": 31
+                },
+                {
+                  "val": "password2",
+                  "offset": 44
+                }
+              ],
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 407909300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my street, city, state, zipcode and security security number",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Putney High Road",
+                  "Putney",
+                  "London",
+                  "135647",
+                  "2454748484"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397229100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on register button",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 866095400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be logged in",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-23T22:55:30.288Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6701920900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6551468000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Successful Registration",
+        "description": "",
+        "id": "customer-registration;successful-registration;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 111701500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 141621400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2737841800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to para bank web application",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 528586900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on register link",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 518603600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter my Tau , New Tester and taunewtester ,password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tau",
+                  "offset": 11
+                },
+                {
+                  "val": "New Tester",
+                  "offset": 17
+                },
+                {
+                  "val": "taunewtester",
+                  "offset": 32
+                },
+                {
+                  "val": "password",
+                  "offset": 46
+                }
+              ],
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 433838300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my street, city, state, zipcode and security security number",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Putney High Road",
+                  "Putney",
+                  "London",
+                  "135647",
+                  "2454748484"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579451100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on register button",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 589414400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be logged in",
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Customer Registration",
+    "description": "  In order to do internet banking\n  As a new Para Bank customer\n  I want to register for internet banking",
+    "id": "customer-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/feature/File1/Registration.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-23T22:55:49.194Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6749935300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6515583000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 117565100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 136633200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2394771400,
               "status": "passed"
             },
             "line": 9,
@@ -47,7 +532,7 @@
           },
           {
             "result": {
-              "duration": 157578700,
+              "duration": 201461100,
               "status": "passed"
             },
             "line": 10,
@@ -73,7 +558,7 @@
           },
           {
             "result": {
-              "duration": 1152646400,
+              "duration": 1120683400,
               "status": "passed"
             },
             "line": 11,
@@ -85,7 +570,7 @@
           },
           {
             "result": {
-              "duration": 966179400,
+              "duration": 1369275900,
               "status": "passed"
             },
             "line": 12,
@@ -98,15 +583,24 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-22T13:18:59.564Z",
+        "start_timestamp": "2021-01-23T22:56:07.816Z",
         "before": [
           {
             "result": {
-              "duration": 6494789400,
+              "duration": 6637011500,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6749929300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
             }
           }
         ],
@@ -117,7 +611,16 @@
         "after": [
           {
             "result": {
-              "duration": 239358900,
+              "duration": 225396800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 181516300,
               "status": "passed"
             },
             "match": {
@@ -130,7 +633,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2236787600,
+              "duration": 2932426000,
               "status": "passed"
             },
             "line": 9,
@@ -142,7 +645,7 @@
           },
           {
             "result": {
-              "duration": 185504000,
+              "duration": 146607900,
               "status": "passed"
             },
             "line": 10,
@@ -168,7 +671,7 @@
           },
           {
             "result": {
-              "duration": 847753400,
+              "duration": 979116400,
               "status": "passed"
             },
             "line": 11,
@@ -180,7 +683,7 @@
           },
           {
             "result": {
-              "duration": 800861300,
+              "duration": 710102400,
               "status": "passed"
             },
             "line": 12,
@@ -193,15 +696,24 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-22T13:19:10.383Z",
+        "start_timestamp": "2021-01-23T22:56:26.386Z",
         "before": [
           {
             "result": {
-              "duration": 6648474100,
+              "duration": 6477468100,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6528475900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
             }
           }
         ],
@@ -212,7 +724,16 @@
         "after": [
           {
             "result": {
-              "duration": 244347300,
+              "duration": 81779800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 85771300,
               "status": "passed"
             },
             "match": {
@@ -225,7 +746,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2456433400,
+              "duration": 2703772200,
               "status": "passed"
             },
             "line": 9,
@@ -237,7 +758,7 @@
           },
           {
             "result": {
-              "duration": 171540500,
+              "duration": 177526400,
               "status": "passed"
             },
             "line": 10,
@@ -263,7 +784,7 @@
           },
           {
             "result": {
-              "duration": 1021275200,
+              "duration": 867700100,
               "status": "passed"
             },
             "line": 11,
@@ -275,7 +796,7 @@
           },
           {
             "result": {
-              "duration": 737027700,
+              "duration": 926506200,
               "status": "passed"
             },
             "line": 12,
@@ -292,7 +813,7 @@
     "description": "  In order to do internet banking\n  As a valid Para Bank customer\n  I want to log in successfully",
     "id": "login-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/java/resources/feature/Login.feature",
+    "uri": "file:src/test/java/resources/feature/File2/Login.feature",
     "tags": []
   }
 ]

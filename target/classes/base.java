@@ -16,9 +16,10 @@ public class base {
     public WebDriver driver;
     public Properties prop;
 
-    public String userFullName; // Dependency Injection - needed to share a state between different Steps with a .resources.feature
-
+    // Dependency Injection - needed to share a state between different Steps with a .resources.feature
     // Maven dependency for cucumber-picocontainer is needed in the pom.xml
+    public String userFullName;
+
 
     public WebDriver initialiseDriver() throws IOException {
 
