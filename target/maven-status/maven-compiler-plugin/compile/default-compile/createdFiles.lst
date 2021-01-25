@@ -1,2 +1,6 @@
-resources\base.class
+PageObjects\RequestLoanPage.class
 PageObjects\RegistrationPage.class
+PageObjects\TransferFundsPage.class
+PageObjects\LoginPage.class
+resources\base.class
+PageObjects\OpenANewAccountPage.class

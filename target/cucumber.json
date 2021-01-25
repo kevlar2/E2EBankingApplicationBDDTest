@@ -3,20 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-23T22:54:48.886Z",
+        "start_timestamp": "2021-01-25T19:48:10.931Z",
         "before": [
           {
             "result": {
-              "duration": 7984067100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
-            }
-          },
-          {
-            "result": {
-              "duration": 7183368500,
+              "duration": 8469083700,
               "status": "passed"
             },
             "match": {
@@ -24,27 +15,18 @@
             }
           }
         ],
-        "line": 21,
+        "line": 22,
         "name": "Successful Registration",
         "description": "",
         "id": "customer-registration;successful-registration;;2",
         "after": [
           {
             "result": {
-              "duration": 183509200,
+              "duration": 437850600,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 196474400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
             }
           }
         ],
@@ -53,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2782109200,
+              "duration": 3160302900,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I navigate to para bank web application",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
@@ -65,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 869518300,
+              "duration": 792435300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I click on register link",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
@@ -77,10 +59,10 @@
           },
           {
             "result": {
-              "duration": 430931200,
+              "duration": 563256900,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I enter my Auto , Tester and autotester ,password",
             "match": {
               "arguments": [
@@ -107,10 +89,10 @@
           },
           {
             "result": {
-              "duration": 539560800,
+              "duration": 462870700,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I enter my street, city, state, zipcode and security security number",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
@@ -130,10 +112,10 @@
           },
           {
             "result": {
-              "duration": 967499300,
+              "duration": 503403100,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click on register button",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
@@ -142,33 +124,30 @@
           },
           {
             "result": {
-              "duration": 677189200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 62909c620aa284568767a8c6184f1423\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
+              "duration": 30185378500,
+              "status": "failed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I should be logged in",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-01-23T22:55:10.830Z",
+        "start_timestamp": "2021-01-25T19:48:55.664Z",
         "before": [
           {
             "result": {
-              "duration": 6565032300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
-            }
-          },
-          {
-            "result": {
-              "duration": 6649509400,
+              "duration": 6920752900,
               "status": "passed"
             },
             "match": {
@@ -176,27 +155,18 @@
             }
           }
         ],
-        "line": 22,
+        "line": 23,
         "name": "Successful Registration",
         "description": "",
         "id": "customer-registration;successful-registration;;3",
         "after": [
           {
             "result": {
-              "duration": 227393100,
+              "duration": 244392200,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 170545800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
             }
           }
         ],
@@ -205,10 +175,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2898252100,
+              "duration": 2902861000,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I navigate to para bank web application",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
@@ -217,10 +187,10 @@
           },
           {
             "result": {
-              "duration": 854715500,
+              "duration": 1130917300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I click on register link",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
@@ -229,10 +199,10 @@
           },
           {
             "result": {
-              "duration": 407058800,
+              "duration": 550533000,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I enter my Auto , Tester 2 and autotester2 ,password2",
             "match": {
               "arguments": [
@@ -259,10 +229,10 @@
           },
           {
             "result": {
-              "duration": 407909300,
+              "duration": 582954400,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I enter my street, city, state, zipcode and security security number",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
@@ -282,10 +252,10 @@
           },
           {
             "result": {
-              "duration": 397229100,
+              "duration": 446320600,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click on register button",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
@@ -294,33 +264,30 @@
           },
           {
             "result": {
-              "duration": 866095400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d2c5ddf5399c0ec4a5a00146b9170e4a\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
+              "duration": 30204070800,
+              "status": "failed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I should be logged in",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-01-23T22:55:30.288Z",
+        "start_timestamp": "2021-01-25T19:49:38.668Z",
         "before": [
           {
             "result": {
-              "duration": 6701920900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
-            }
-          },
-          {
-            "result": {
-              "duration": 6551468000,
+              "duration": 6671057300,
               "status": "passed"
             },
             "match": {
@@ -328,27 +295,18 @@
             }
           }
         ],
-        "line": 23,
+        "line": 24,
         "name": "Successful Registration",
         "description": "",
         "id": "customer-registration;successful-registration;;4",
         "after": [
           {
             "result": {
-              "duration": 111701500,
+              "duration": 108708400,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 141621400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
             }
           }
         ],
@@ -357,10 +315,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2737841800,
+              "duration": 3781379600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I navigate to para bank web application",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_navigate_to_para_bank_web_application()"
@@ -369,10 +327,10 @@
           },
           {
             "result": {
-              "duration": 528586900,
+              "duration": 5200765800,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "I click on register link",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_link()"
@@ -381,10 +339,10 @@
           },
           {
             "result": {
-              "duration": 518603600,
+              "duration": 443405800,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I enter my Tau , New Tester and taunewtester ,password",
             "match": {
               "arguments": [
@@ -411,10 +369,10 @@
           },
           {
             "result": {
-              "duration": 433838300,
+              "duration": 360817200,
               "status": "passed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I enter my street, city, state, zipcode and security security number",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_enter_my_street_city_state_and_zipcode(io.cucumber.datatable.DataTable)"
@@ -434,10 +392,10 @@
           },
           {
             "result": {
-              "duration": 579451100,
+              "duration": 407173600,
               "status": "passed"
             },
-            "line": 14,
+            "line": 15,
             "name": "I click on register button",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_click_on_register_button()"
@@ -446,15 +404,21 @@
           },
           {
             "result": {
-              "duration": 589414400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 639bee464cf11007102891f4bf5b55a2\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
+              "duration": 30149885200,
+              "status": "failed"
             },
-            "line": 15,
+            "line": 16,
             "name": "I should be logged in",
             "match": {
               "location": "resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
           }
         ]
       }
@@ -470,44 +434,26 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-23T22:55:49.194Z",
+        "start_timestamp": "2021-01-25T19:50:25.808Z",
         "before": [
           {
             "result": {
-              "duration": 6749935300,
+              "duration": 9922499700,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
             }
-          },
-          {
-            "result": {
-              "duration": 6515583000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
-            }
           }
         ],
-        "line": 17,
+        "line": 18,
         "name": "Login Successful",
         "description": "",
         "id": "login-functionality;login-successful;;2",
         "after": [
           {
             "result": {
-              "duration": 117565100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 136633200,
+              "duration": 188496500,
               "status": "passed"
             },
             "match": {
@@ -520,10 +466,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2394771400,
+              "duration": 1995100,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I am in the login page of the para bank web application",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
@@ -532,11 +478,11 @@
           },
           {
             "result": {
-              "duration": 201461100,
+              "duration": 113696900,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I enter a valid autotester and password with Auto Tester",
+            "line": 11,
+            "name": "I enter a valid autotester and password with Welcome Auto Tester",
             "match": {
               "arguments": [
                 {
@@ -548,7 +494,7 @@
                   "offset": 31
                 },
                 {
-                  "val": "Auto Tester",
+                  "val": "Welcome Auto Tester",
                   "offset": 45
                 }
               ],
@@ -558,10 +504,10 @@
           },
           {
             "result": {
-              "duration": 1120683400,
+              "duration": 1770099300,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click Log in",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
@@ -570,57 +516,45 @@
           },
           {
             "result": {
-              "duration": 1369275900,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 339ea7df23e2ded551142e93fa0277d1\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
+              "duration": 30126378500,
+              "status": "failed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I should be taken to the Overview page",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
             },
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-01-23T22:56:07.816Z",
+        "start_timestamp": "2021-01-25T19:51:07.949Z",
         "before": [
           {
             "result": {
-              "duration": 6637011500,
+              "duration": 9423838600,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
             }
-          },
-          {
-            "result": {
-              "duration": 6749929300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
-            }
           }
         ],
-        "line": 18,
+        "line": 19,
         "name": "Login Successful",
         "description": "",
         "id": "login-functionality;login-successful;;3",
         "after": [
           {
             "result": {
-              "duration": 225396800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 181516300,
+              "duration": 121186400,
               "status": "passed"
             },
             "match": {
@@ -633,10 +567,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2932426000,
+              "duration": 997400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I am in the login page of the para bank web application",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
@@ -645,11 +579,11 @@
           },
           {
             "result": {
-              "duration": 146607900,
+              "duration": 240357700,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I enter a valid autotester2 and password2 with Auto Tester 2",
+            "line": 11,
+            "name": "I enter a valid autotester2 and password2 with Welcome Auto Tester 2",
             "match": {
               "arguments": [
                 {
@@ -661,7 +595,7 @@
                   "offset": 32
                 },
                 {
-                  "val": "Auto Tester 2",
+                  "val": "Welcome Auto Tester 2",
                   "offset": 47
                 }
               ],
@@ -671,10 +605,10 @@
           },
           {
             "result": {
-              "duration": 979116400,
+              "duration": 1300542100,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click Log in",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
@@ -683,57 +617,45 @@
           },
           {
             "result": {
-              "duration": 710102400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fbac48562e458d62a011808259fc7ed0\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
+              "duration": 30121677000,
+              "status": "failed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I should be taken to the Overview page",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
             },
             "keyword": "And "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
         ]
       },
       {
-        "start_timestamp": "2021-01-23T22:56:26.386Z",
+        "start_timestamp": "2021-01-25T19:51:49.168Z",
         "before": [
           {
             "result": {
-              "duration": 6477468100,
+              "duration": 9781063600,
               "status": "passed"
             },
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.initialiseWebdriver()"
             }
-          },
-          {
-            "result": {
-              "duration": 6528475900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()"
-            }
           }
         ],
-        "line": 19,
+        "line": 20,
         "name": "Login Successful",
         "description": "",
         "id": "login-functionality;login-successful;;4",
         "after": [
           {
             "result": {
-              "duration": 81779800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 85771300,
+              "duration": 193988800,
               "status": "passed"
             },
             "match": {
@@ -746,10 +668,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2703772200,
+              "duration": 997400,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "I am in the login page of the para bank web application",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()"
@@ -758,11 +680,11 @@
           },
           {
             "result": {
-              "duration": 177526400,
+              "duration": 230384100,
               "status": "passed"
             },
-            "line": 10,
-            "name": "I enter a valid taunewtester and password with Tau New Tester",
+            "line": 11,
+            "name": "I enter a valid taunewtester and password with Welcome Tau New Tester",
             "match": {
               "arguments": [
                 {
@@ -774,7 +696,7 @@
                   "offset": 33
                 },
                 {
-                  "val": "Tau New Tester",
+                  "val": "Welcome Tau New Tester",
                   "offset": 47
                 }
               ],
@@ -784,10 +706,10 @@
           },
           {
             "result": {
-              "duration": 867700100,
+              "duration": 640282800,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "I click Log in",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_click_log_in()"
@@ -796,15 +718,21 @@
           },
           {
             "result": {
-              "duration": 926506200,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 686cf48c36be604ae6cb386afa05e210\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
+              "duration": 30108274300,
+              "status": "failed"
             },
-            "line": 12,
+            "line": 13,
             "name": "I should be taken to the Overview page",
             "match": {
               "location": "resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()"
             },
             "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
           }
         ]
       }
@@ -814,6 +742,393 @@
     "id": "login-functionality",
     "keyword": "Feature",
     "uri": "file:src/test/java/resources/feature/File2/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-25T19:52:30.136Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11223669700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Request a Loan Successfully",
+        "description": "",
+        "id": "request-loan-functionality;request-a-loan-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 216462200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 837343500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am am logged into para bank with a valid autotester and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "autotester",
+                  "offset": 43
+                },
+                {
+                  "val": "password",
+                  "offset": 58
+                }
+              ],
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_am_logged_into_para_bank_with_a_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 985f35a8d3c4f1017dfe0d7053494e7c\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
+              "duration": 30055973600,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I click on request loan link",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am taken to Apply for a Loan page",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_taken_to_apply_for_a_loan_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter loan details",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_enter_loan_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on apply now",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_apply_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "i should now be taken to loan confirmation screen",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-25T19:53:12.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12547892200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Request a Loan Successfully",
+        "description": "",
+        "id": "request-loan-functionality;request-a-loan-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 132642600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 34638146400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am am logged into para bank with a valid autotester2 and password2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "autotester2",
+                  "offset": 43
+                },
+                {
+                  "val": "password2",
+                  "offset": 59
+                }
+              ],
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_am_logged_into_para_bank_with_a_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bf625b14654f00b50aaf11fc20b4d88c\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
+              "duration": 30060134900,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I click on request loan link",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am taken to Apply for a Loan page",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_taken_to_apply_for_a_loan_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter loan details",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_enter_loan_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on apply now",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_apply_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "i should now be taken to loan confirmation screen",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-25T19:54:29.881Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11428003300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Request a Loan Successfully",
+        "description": "",
+        "id": "request-loan-functionality;request-a-loan-successfully;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 193992100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2324004900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am am logged into para bank with a valid taunewtester and password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "taunewtester",
+                  "offset": 43
+                },
+                {
+                  "val": "password",
+                  "offset": 60
+                }
+              ],
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_am_logged_into_para_bank_with_a_valid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ca66013dda0f942361da98d1396b4e77\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
+              "duration": 30061841700,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "I click on request loan link",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I am taken to Apply for a Loan page",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_am_taken_to_apply_for_a_loan_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I enter loan details",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_enter_loan_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "500"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I click on apply now",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_click_on_apply_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "i should now be taken to loan confirmation screen",
+            "match": {
+              "location": "resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      }
+    ],
+    "name": "Request Loan Functionality",
+    "description": "  In order to request a Loan\n  As a valid Para Bank customer\n  I want to log in successfully\n  I want to navigate to request loan page\n  I want to request a loan successfully",
+    "id": "request-loan-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/resources/feature/File3/RequestLoan.feature",
     "tags": []
   }
 ]

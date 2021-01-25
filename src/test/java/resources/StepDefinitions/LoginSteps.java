@@ -1,5 +1,6 @@
 package resources.StepDefinitions;
 
+import PageObjects.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -7,7 +8,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import resources.base;
 
@@ -24,16 +24,19 @@ public class LoginSteps extends base {
         this.baseUtil =util;
     }
 
-    @Before
+    LoginPage loginPage;
+
+    @Before("@Test2")
     public void initialiseWebdriver() throws IOException {
 
         driver = initialiseDriver();
+        driver.get(prop.getProperty("url"));
     }
 
     @Given("^I am in the login page of the para bank web application$")
     public void i_am_in_the_login_page_of_the_para_bank_web_application() throws Throwable {
 
-        driver.get(prop.getProperty("url"));
+        loginPage = new LoginPage(driver);
     }
 
     @When("^I enter a valid (.+) and (.+) with (.+)$")
@@ -41,15 +44,15 @@ public class LoginSteps extends base {
 
         baseUtil.userFullName = userFullName; // Dependency Injection - needed to share a state between different Steps with a .resources.feature
 
-        driver.findElement(By.cssSelector("input[name$='username']")).sendKeys(username);
+        loginPage.enterCustomerUsername(username);
 
-        driver.findElement(By.cssSelector("input[name$='password']")).sendKeys(password);
+        loginPage.enterCustomerPassword(password);
     }
 
     @Then("^I click Log in$")
     public void i_click_log_in() throws Throwable {
 
-        driver.findElement(By.cssSelector("input[name$='username']")).submit();
+        loginPage.customerLogin();
     }
 
     @And("^I should be taken to the Overview page$")
@@ -57,20 +60,21 @@ public class LoginSteps extends base {
 
         waitExplicitlyForExpectedConditions(30,".title");
 
-        String actualUserFullName = driver.findElement(By.cssSelector(".smallText")).getText().toString();
+        String actualUserFullName = loginPage.getTheUserFullName().toString();
+
+        System.out.println(actualUserFullName);
 
         Assert.assertTrue("The names are different please check and re-try again.",
-                actualUserFullName.contains(baseUtil.userFullName));
+                loginPage.getTheUserFullName().contains(baseUtil.userFullName));
 
         System.out.println(baseUtil.userFullName);
 
-        driver.findElement(By.cssSelector(".title")).isDisplayed();
+        loginPage.isAccountPageTitleDisplayed();
 
-        driver.findElement(By.linkText("Log Out")).click();
-
+        loginPage.customerLogout();
     }
 
-    @After
+    @After("@Test2")
     public void tearDown(){
         driver.close();
     }

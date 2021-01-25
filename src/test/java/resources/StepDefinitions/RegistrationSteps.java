@@ -8,7 +8,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import resources.base;
 
@@ -21,7 +20,7 @@ public class RegistrationSteps extends base {
 
     RegistrationPage registrationPage;
 
-    @Before
+    @Before("@Test1")
     public void initialiseWebdriver() throws IOException {
 
         driver = initialiseDriver();
@@ -37,20 +36,20 @@ public class RegistrationSteps extends base {
     @When("^I click on register link$")
     public void i_click_on_register_link() throws Throwable {
 
-        registrationPage.getRegistrationForm().click();
+        registrationPage.getRegistrationForm();
 
     }
 
     @Then("^I enter my (.+) , (.+) and (.+) ,(.+)$")
     public void i_enter_my(String firstname, String lastname, String username, String password) throws Throwable {
 
-        registrationPage.setCustomersFullName(firstname, lastname);
+        registrationPage.enterCustomersFullName(firstname, lastname);
 
-        registrationPage.setCustomersUsername().sendKeys(username);
+        registrationPage.enterCustomersUsername(username);
 
-        registrationPage.setCustomersPassword().sendKeys(password);
+        registrationPage.enterCustomersPassword(password);
 
-        registrationPage.confirmCustomersPassword().sendKeys(password);
+        registrationPage.confirmCustomersPassword(password);
 
     }
 
@@ -59,15 +58,16 @@ public class RegistrationSteps extends base {
 
         List<String> addressField = table.asList();
 
-        registrationPage.setCustomersAddress(addressField.get(0), addressField.get(1), addressField.get(2), addressField.get(3) );
+        registrationPage.enterCustomersFullAddress(addressField.get(0), addressField.get(1), addressField.get(2), addressField.get(3) );
 
-        registrationPage.setSocialSecurityNumber().sendKeys(addressField.get(4));
+        registrationPage.enterCustomersSocialSecurityNumber(addressField.get(4));
     }
 
     @And("^I click on register button$")
     public void i_click_on_register_button() throws Throwable {
 
-        registrationPage.completeRegistration().click();
+        registrationPage.completeRegistration();
+
     }
 
     @Then("^I should be logged in$")
@@ -75,12 +75,12 @@ public class RegistrationSteps extends base {
 
         waitExplicitlyForExpectedConditions(30,".title");
 
-        driver.findElement(By.cssSelector(".title")).isDisplayed();
+        registrationPage.validateAccountPageAfterRegistration();
 
-        driver.findElement(By.linkText("Log Out")).click();
+        registrationPage.loginOut();
     }
 
-    @After
+    @After("@Test1")
     public void tearDown(){
         driver.close();
     }

@@ -4,6 +4,7 @@ Feature: Customer Registration
   As a new Para Bank customer
   I want to register for internet banking
 
+  @Test1
 Scenario Outline: Successful Registration
 
   Given I navigate to para bank web application

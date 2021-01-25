@@ -27,14 +27,17 @@ public class RegistrationPage {
     @FindBy(xpath="//input[@id='customer.password']") WebElement customerPassword;
     @FindBy(xpath="//input[@id='repeatedPassword']") WebElement confirmPassword;
     @FindBy(xpath="//input[@value='Register']") WebElement submitButton;
+    @FindBy(css = ".title") WebElement accountPageTitle;
+    @FindBy(linkText = "Log Out") WebElement logOut;
+
 
     public RegistrationPage() {
         super();
     }
 
-
-    public WebElement getRegistrationForm(){
-        return registrationForm;
+    public RegistrationPage getRegistrationForm(){
+        registrationForm.click();
+        return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersFirstName(String firstName){
@@ -47,14 +50,7 @@ public class RegistrationPage {
         return new RegistrationPage();
     }
 
-    public void setCustomersFullName(String customersFirstName, String customersLastName){
-
-        enterCustomersFirstName(customersFirstName);
-
-        enterCustomersLastName(customersLastName);
-    }
-
-    public void setCustomersAddress(String street, String city, String state, String zipCode){
+    public RegistrationPage enterCustomersFullAddress(String street, String city, String state, String zipCode){
 
         streetAddress.sendKeys(street);
 
@@ -64,26 +60,49 @@ public class RegistrationPage {
 
         addressZipcode.sendKeys(zipCode);
 
+        return new RegistrationPage();
     }
 
-    public WebElement setSocialSecurityNumber(){
-        return customerSsn;
+    public RegistrationPage enterCustomersSocialSecurityNumber(String ssn){
+        customerSsn.sendKeys(ssn);
+        return new RegistrationPage();
     }
 
-    public WebElement setCustomersUsername(){
-        return customerUsername;
+    public RegistrationPage enterCustomersUsername(String username){
+        customerUsername.sendKeys(username);
+        return new RegistrationPage();
     }
 
-    public WebElement setCustomersPassword(){
-        return customerPassword;
+    public RegistrationPage enterCustomersPassword(String password){
+        customerPassword.sendKeys(password);
+        return new RegistrationPage();
     }
 
-    public WebElement confirmCustomersPassword(){
-        return confirmPassword;
+    public RegistrationPage confirmCustomersPassword(String password){
+        confirmPassword.sendKeys(password);
+        return new RegistrationPage();
     }
 
-    public WebElement completeRegistration(){
-        return submitButton;
+    public void enterCustomersFullName(String customersFirstName, String customersLastName){
+
+        enterCustomersFirstName(customersFirstName);
+
+        enterCustomersLastName(customersLastName);
+    }
+
+    public RegistrationPage completeRegistration(){
+        submitButton.click();
+        return new RegistrationPage();
+    }
+
+    public RegistrationPage validateAccountPageAfterRegistration(){
+        accountPageTitle.isDisplayed();
+        return new RegistrationPage();
+    }
+
+    public RegistrationPage loginOut(){
+        logOut.click();
+        return new RegistrationPage();
     }
 
 

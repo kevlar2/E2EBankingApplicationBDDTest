@@ -14,10 +14,12 @@ import java.util.concurrent.TimeUnit;
 public class base {
 
     public WebDriver driver;
+
     public Properties prop;
 
     // Dependency Injection - needed to share a state between different Steps with a .resources.feature
     // Maven dependency for cucumber-picocontainer is needed in the pom.xml
+
     public String userFullName;
 
 
@@ -41,6 +43,11 @@ public class base {
     public void waitExplicitlyForExpectedConditions(int timeoutInSeconds, String locatorElementForCSS){
         WebDriverWait wait= new WebDriverWait(driver, timeoutInSeconds);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(locatorElementForCSS)));
+    }
+
+    public void waitExplicitlyForExpectedConditionsXpath(int timeoutInSeconds, String locatorElementForXpath){
+        WebDriverWait wait= new WebDriverWait(driver, timeoutInSeconds);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locatorElementForXpath)));
     }
 
 
