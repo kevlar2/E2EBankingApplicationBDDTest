@@ -5,11 +5,14 @@ import PageObjects.RequestLoanPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import resources.base;
 
@@ -111,7 +114,7 @@ public class RequestLoanSteps extends base {
 
             System.out.println(requestLoanPage.getLoanDisapprovalMessage());
             Assert.assertEquals("Actual text is different from expected text. Please check and try again.",
-                    "Account number is not displayed as expected please check and try again.",
+                    "We cannot grant a loan in that amount with your available funds.",
                     requestLoanPage.getLoanDisapprovalMessage());
         } else {
 
@@ -125,22 +128,18 @@ public class RequestLoanSteps extends base {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
     @After("@Test3")
-    public void tearDown(){
+    public void tearDown(Scenario scenario) {
+        if(scenario.isFailed()){
+            // Take screenshot and attach to report
+            scenario.attach(getScreenshotWithoutPath(),
+                    "image/png",
+                    String.valueOf(scenario.getUri()));
+            System.out.println("Took screenshot of failed test");
+        }
+
         driver.close();
     }
 

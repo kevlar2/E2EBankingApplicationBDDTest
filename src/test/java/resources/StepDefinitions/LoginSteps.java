@@ -3,6 +3,7 @@ package resources.StepDefinitions;
 import PageObjects.LoginPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -75,7 +76,15 @@ public class LoginSteps extends base {
     }
 
     @After("@Test2")
-    public void tearDown(){
+    public void tearDown(Scenario scenario) throws Throwable{
+        if(scenario.isFailed()){
+            // Take screenshot and embed to report
+            scenario.attach(getScreenshotWithoutPath(),
+                    "image/png",
+                    String.valueOf(scenario.getUri()));
+            System.out.println("Took screenshot of failed test");
+        }
+
         driver.close();
     }
 

@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-25T19:48:10.931Z",
+        "start_timestamp": "2021-01-28T10:13:32.237Z",
         "before": [
           {
             "result": {
-              "duration": 8469083700,
+              "duration": 7827106200,
               "status": "passed"
             },
             "match": {
@@ -22,11 +22,11 @@
         "after": [
           {
             "result": {
-              "duration": 437850600,
+              "duration": 116688700,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3160302900,
+              "duration": 3146598000,
               "status": "passed"
             },
             "line": 10,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 792435300,
+              "duration": 499664400,
               "status": "passed"
             },
             "line": 11,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 563256900,
+              "duration": 372004600,
               "status": "passed"
             },
             "line": 12,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 462870700,
+              "duration": 398904300,
               "status": "passed"
             },
             "line": 13,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 503403100,
+              "duration": 355051100,
               "status": "passed"
             },
             "line": 15,
@@ -124,9 +124,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 62909c620aa284568767a8c6184f1423\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
-              "duration": 30185378500,
-              "status": "failed"
+              "duration": 30240369700,
+              "status": "passed"
             },
             "line": 16,
             "name": "I should be logged in",
@@ -143,11 +142,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:48:55.664Z",
+        "start_timestamp": "2021-01-28T10:14:15.323Z",
         "before": [
           {
             "result": {
-              "duration": 6920752900,
+              "duration": 6625239300,
               "status": "passed"
             },
             "match": {
@@ -162,11 +161,11 @@
         "after": [
           {
             "result": {
-              "duration": 244392200,
+              "duration": 216956000,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -175,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2902861000,
+              "duration": 6551129900,
               "status": "passed"
             },
             "line": 10,
@@ -187,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 1130917300,
+              "duration": 482709600,
               "status": "passed"
             },
             "line": 11,
@@ -199,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 550533000,
+              "duration": 424865900,
               "status": "passed"
             },
             "line": 12,
@@ -229,7 +228,7 @@
           },
           {
             "result": {
-              "duration": 582954400,
+              "duration": 420873500,
               "status": "passed"
             },
             "line": 13,
@@ -252,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 446320600,
+              "duration": 376993700,
               "status": "passed"
             },
             "line": 15,
@@ -264,9 +263,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d2c5ddf5399c0ec4a5a00146b9170e4a\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
-              "duration": 30204070800,
-              "status": "failed"
+              "duration": 30149309600,
+              "status": "passed"
             },
             "line": 16,
             "name": "I should be logged in",
@@ -283,11 +281,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:49:38.668Z",
+        "start_timestamp": "2021-01-28T10:15:00.584Z",
         "before": [
           {
             "result": {
-              "duration": 6671057300,
+              "duration": 6598739600,
               "status": "passed"
             },
             "match": {
@@ -302,11 +300,11 @@
         "after": [
           {
             "result": {
-              "duration": 108708400,
+              "duration": 99731800,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RegistrationSteps.tearDown()"
+              "location": "resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -315,7 +313,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3781379600,
+              "duration": 3665235900,
               "status": "passed"
             },
             "line": 10,
@@ -327,7 +325,7 @@
           },
           {
             "result": {
-              "duration": 5200765800,
+              "duration": 584437800,
               "status": "passed"
             },
             "line": 11,
@@ -339,7 +337,7 @@
           },
           {
             "result": {
-              "duration": 443405800,
+              "duration": 394945600,
               "status": "passed"
             },
             "line": 12,
@@ -369,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 360817200,
+              "duration": 402052000,
               "status": "passed"
             },
             "line": 13,
@@ -392,7 +390,7 @@
           },
           {
             "result": {
-              "duration": 407173600,
+              "duration": 336732100,
               "status": "passed"
             },
             "line": 15,
@@ -404,9 +402,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Log Out\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 639bee464cf11007102891f4bf5b55a2\n*** Element info: {Using\u003dlink text, value\u003dLog Out}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)\r\n\tat resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)\r\n\tat ✽.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)\r\n",
-              "duration": 30149885200,
-              "status": "failed"
+              "duration": 30123440800,
+              "status": "passed"
             },
             "line": 16,
             "name": "I should be logged in",
@@ -434,11 +431,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-25T19:50:25.808Z",
+        "start_timestamp": "2021-01-28T10:15:42.802Z",
         "before": [
           {
             "result": {
-              "duration": 9922499700,
+              "duration": 9645365500,
               "status": "passed"
             },
             "match": {
@@ -453,11 +450,11 @@
         "after": [
           {
             "result": {
-              "duration": 188496500,
+              "duration": 181514800,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+              "location": "resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -466,7 +463,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1995100,
+              "duration": 996500,
               "status": "passed"
             },
             "line": 10,
@@ -478,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 113696900,
+              "duration": 131648600,
               "status": "passed"
             },
             "line": 11,
@@ -504,7 +501,7 @@
           },
           {
             "result": {
-              "duration": 1770099300,
+              "duration": 1867336400,
               "status": "passed"
             },
             "line": 12,
@@ -516,9 +513,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52825}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 339ea7df23e2ded551142e93fa0277d1\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
-              "duration": 30126378500,
-              "status": "failed"
+              "duration": 825011200,
+              "status": "passed"
             },
             "line": 13,
             "name": "I should be taken to the Overview page",
@@ -535,11 +531,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:51:07.949Z",
+        "start_timestamp": "2021-01-28T10:15:55.467Z",
         "before": [
           {
             "result": {
-              "duration": 9423838600,
+              "duration": 8575981900,
               "status": "passed"
             },
             "match": {
@@ -554,11 +550,11 @@
         "after": [
           {
             "result": {
-              "duration": 121186400,
+              "duration": 102724000,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+              "location": "resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -567,7 +563,6 @@
         "steps": [
           {
             "result": {
-              "duration": 997400,
               "status": "passed"
             },
             "line": 10,
@@ -579,7 +574,7 @@
           },
           {
             "result": {
-              "duration": 240357700,
+              "duration": 153588900,
               "status": "passed"
             },
             "line": 11,
@@ -605,7 +600,7 @@
           },
           {
             "result": {
-              "duration": 1300542100,
+              "duration": 831982200,
               "status": "passed"
             },
             "line": 12,
@@ -617,9 +612,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fbac48562e458d62a011808259fc7ed0\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
-              "duration": 30121677000,
-              "status": "failed"
+              "duration": 765953000,
+              "status": "passed"
             },
             "line": 13,
             "name": "I should be taken to the Overview page",
@@ -636,11 +630,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:51:49.168Z",
+        "start_timestamp": "2021-01-28T10:16:05.907Z",
         "before": [
           {
             "result": {
-              "duration": 9781063600,
+              "duration": 9217159900,
               "status": "passed"
             },
             "match": {
@@ -655,11 +649,11 @@
         "after": [
           {
             "result": {
-              "duration": 193988800,
+              "duration": 99735100,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.LoginSteps.tearDown()"
+              "location": "resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -680,7 +674,7 @@
           },
           {
             "result": {
-              "duration": 230384100,
+              "duration": 304188800,
               "status": "passed"
             },
             "line": 11,
@@ -706,7 +700,7 @@
           },
           {
             "result": {
-              "duration": 640282800,
+              "duration": 1167877400,
               "status": "passed"
             },
             "line": 12,
@@ -718,9 +712,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".smallText\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 686cf48c36be604ae6cb386afa05e210\n*** Element info: {Using\u003dcss selector, value\u003d.smallText}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.getText(Unknown Source)\r\n\tat PageObjects.LoginPage.getTheUserFullName(LoginPage.java:63)\r\n\tat resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page(LoginSteps.java:63)\r\n\tat ✽.I should be taken to the Overview page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:13)\r\n",
-              "duration": 30108274300,
-              "status": "failed"
+              "duration": 773901100,
+              "status": "passed"
             },
             "line": 13,
             "name": "I should be taken to the Overview page",
@@ -748,11 +741,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-25T19:52:30.136Z",
+        "start_timestamp": "2021-01-28T10:16:17.477Z",
         "before": [
           {
             "result": {
-              "duration": 11223669700,
+              "duration": 9363709900,
               "status": "passed"
             },
             "match": {
@@ -767,11 +760,11 @@
         "after": [
           {
             "result": {
-              "duration": 216462200,
+              "duration": 108534600,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -780,7 +773,7 @@
         "steps": [
           {
             "result": {
-              "duration": 837343500,
+              "duration": 901749600,
               "status": "passed"
             },
             "line": 12,
@@ -802,9 +795,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 985f35a8d3c4f1017dfe0d7053494e7c\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
-              "duration": 30055973600,
-              "status": "failed"
+              "duration": 371949700,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click on request loan link",
@@ -815,7 +807,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 56923700,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am taken to Apply for a Loan page",
@@ -826,7 +819,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 292060600,
+              "status": "passed"
             },
             "line": 15,
             "name": "I enter loan details",
@@ -845,8 +839,8 @@
           },
           {
             "result": {
-              "duration": 998200,
-              "status": "skipped"
+              "duration": 87766700,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click on apply now",
@@ -857,7 +851,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 529646900,
+              "status": "passed"
             },
             "line": 18,
             "name": "i should now be taken to loan confirmation screen",
@@ -874,11 +869,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:53:12.486Z",
+        "start_timestamp": "2021-01-28T10:16:29.210Z",
         "before": [
           {
             "result": {
-              "duration": 12547892200,
+              "duration": 9431981700,
               "status": "passed"
             },
             "match": {
@@ -893,11 +888,11 @@
         "after": [
           {
             "result": {
-              "duration": 132642600,
+              "duration": 133642400,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -906,7 +901,7 @@
         "steps": [
           {
             "result": {
-              "duration": 34638146400,
+              "duration": 1065964800,
               "status": "passed"
             },
             "line": 12,
@@ -928,9 +923,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:53719}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: bf625b14654f00b50aaf11fc20b4d88c\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
-              "duration": 30060134900,
-              "status": "failed"
+              "duration": 377988500,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click on request loan link",
@@ -941,7 +935,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 46875400,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am taken to Apply for a Loan page",
@@ -952,7 +947,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 286234200,
+              "status": "passed"
             },
             "line": 15,
             "name": "I enter loan details",
@@ -971,7 +967,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 100730900,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click on apply now",
@@ -982,7 +979,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 890618900,
+              "status": "passed"
             },
             "line": 18,
             "name": "i should now be taken to loan confirmation screen",
@@ -999,11 +997,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-01-25T19:54:29.881Z",
+        "start_timestamp": "2021-01-28T10:16:41.552Z",
         "before": [
           {
             "result": {
-              "duration": 11428003300,
+              "duration": 9429024400,
               "status": "passed"
             },
             "match": {
@@ -1018,11 +1016,11 @@
         "after": [
           {
             "result": {
-              "duration": 193992100,
+              "duration": 110347400,
               "status": "passed"
             },
             "match": {
-              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown()"
+              "location": "resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)"
             }
           }
         ],
@@ -1031,7 +1029,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2324004900,
+              "duration": 813824400,
               "status": "passed"
             },
             "line": 12,
@@ -1053,9 +1051,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Request Loan\"}\n  (Session info: chrome\u003d87.0.4280.141)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-TBSD3T7\u0027, ip: \u0027192.168.0.16\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002712.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\\Users\\KEVINO~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54133}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: ca66013dda0f942361da98d1396b4e77\n*** Element info: {Using\u003dlink text, value\u003dRequest Loan}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy20.click(Unknown Source)\r\n\tat PageObjects.RequestLoanPage.getRequestLoanPage(RequestLoanPage.java:37)\r\n\tat resources.StepDefinitions.RequestLoanSteps.i_click_on_request_loan_link(RequestLoanSteps.java:50)\r\n\tat ✽.I click on request loan link(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:13)\r\n",
-              "duration": 30061841700,
-              "status": "failed"
+              "duration": 777744700,
+              "status": "passed"
             },
             "line": 13,
             "name": "I click on request loan link",
@@ -1066,7 +1063,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52423000,
+              "status": "passed"
             },
             "line": 14,
             "name": "I am taken to Apply for a Loan page",
@@ -1077,7 +1075,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 291166800,
+              "status": "passed"
             },
             "line": 15,
             "name": "I enter loan details",
@@ -1096,7 +1095,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 77467100,
+              "status": "passed"
             },
             "line": 17,
             "name": "I click on apply now",
@@ -1107,7 +1107,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 467060000,
+              "status": "passed"
             },
             "line": 18,
             "name": "i should now be taken to loan confirmation screen",

@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>E2E-Banking-Application-BDD-Test</td>
               <td>1</td>
-            <td>25 Jan 2021, 19:55</td>
+            <td>28 Jan 2021, 10:16</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Customer Registration</td>
-          <td      class="passed"    >15</td>
-          <td      class="failed"    >3</td>
+          <td      class="passed"    >18</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">18</td>
 
+          <td  class="passed"    >3</td>
           <td >0</td>
-          <td  class="failed"    >3</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="111828731700">1:51.828</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="108925318500">1:48.925</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -173,7 +173,7 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">Customer Registration</span>
   
@@ -195,12 +195,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">35.667</span>
+  <span class="lead-duration duration">35.012</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Successful Registration</span>
   
@@ -211,7 +211,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
   <div class="inner-level hooks-element-before">
@@ -233,7 +233,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">8.469</span>
+  <span class="lead-duration duration">7.827</span>
 
           </div>
 
@@ -250,9 +250,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -262,14 +262,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">3.160</span>
+  <span class="lead-duration duration">3.146</span>
 
 </div>
 
@@ -295,7 +295,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">0.792</span>
+  <span class="lead-duration duration">0.499</span>
 
 </div>
 
@@ -321,7 +321,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I enter my <span class="argument">Auto</span> , <span class="argument">Tester</span> and <span class="argument">autotester</span> ,<span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.563</span>
+  <span class="lead-duration duration">0.372</span>
 
 </div>
 
@@ -347,7 +347,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.462</span>
+  <span class="lead-duration duration">0.398</span>
 
 </div>
 
@@ -382,7 +382,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on register button</span>
   
-  <span class="lead-duration duration">0.503</span>
+  <span class="lead-duration duration">0.355</span>
 
 </div>
 
@@ -404,11 +404,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should be logged in</span>
   
-  <span class="lead-duration duration">30.185</span>
+  <span class="lead-duration duration">30.240</span>
 
 </div>
 
@@ -416,47 +416,6 @@ $(document).ready(function() {
 
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log Out&quot;}
-  (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 62909c620aa284568767a8c6184f1423
-*** Element info: {Using=link text, value=Log Out}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)
-	at resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)
-	at &#10045;.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -476,7 +435,7 @@ Session ID: 62909c620aa284568767a8c6184f1423
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -488,13 +447,13 @@ Session ID: 62909c620aa284568767a8c6184f1423
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.437</span>
+  <span class="lead-duration duration">0.116</span>
 
           </div>
 
@@ -521,12 +480,12 @@ Session ID: 62909c620aa284568767a8c6184f1423
       </div>
 
   
-  <span class="lead-duration duration">35.817</span>
+  <span class="lead-duration duration">38.405</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-6">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Successful Registration</span>
   
@@ -537,11 +496,11 @@ Session ID: 62909c620aa284568767a8c6184f1423
   </span>
   <div class="description indention"></div>
 
-  <div id="element-6" class="collapse collapsable-details  in ">
+  <div id="element-5" class="collapse collapsable-details ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -553,13 +512,13 @@ Session ID: 62909c620aa284568767a8c6184f1423
 
     </div>
 
-    <div id="before-7" class="inner-level collapse collapsable-details ">
+    <div id="before-6" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">6.920</span>
+  <span class="lead-duration duration">6.625</span>
 
           </div>
 
@@ -576,9 +535,9 @@ Session ID: 62909c620aa284568767a8c6184f1423
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-8">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -588,14 +547,14 @@ Session ID: 62909c620aa284568767a8c6184f1423
 
   </div>
 
-  <div id="steps-8" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">2.902</span>
+  <span class="lead-duration duration">6.551</span>
 
 </div>
 
@@ -621,7 +580,7 @@ Session ID: 62909c620aa284568767a8c6184f1423
   <span class="keyword indention">When</span>
   <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">1.130</span>
+  <span class="lead-duration duration">0.482</span>
 
 </div>
 
@@ -647,7 +606,7 @@ Session ID: 62909c620aa284568767a8c6184f1423
   <span class="keyword indention">Then</span>
   <span class="name">I enter my <span class="argument">Auto</span> , <span class="argument">Tester 2</span> and <span class="argument">autotester2</span> ,<span class="argument">password2</span></span>
   
-  <span class="lead-duration duration">0.550</span>
+  <span class="lead-duration duration">0.424</span>
 
 </div>
 
@@ -673,7 +632,7 @@ Session ID: 62909c620aa284568767a8c6184f1423
   <span class="keyword indention">And</span>
   <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.582</span>
+  <span class="lead-duration duration">0.420</span>
 
 </div>
 
@@ -708,7 +667,7 @@ Session ID: 62909c620aa284568767a8c6184f1423
   <span class="keyword indention">And</span>
   <span class="name">I click on register button</span>
   
-  <span class="lead-duration duration">0.446</span>
+  <span class="lead-duration duration">0.376</span>
 
 </div>
 
@@ -730,11 +689,11 @@ Session ID: 62909c620aa284568767a8c6184f1423
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should be logged in</span>
   
-  <span class="lead-duration duration">30.204</span>
+  <span class="lead-duration duration">30.149</span>
 
 </div>
 
@@ -742,47 +701,6 @@ Session ID: 62909c620aa284568767a8c6184f1423
 
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-9">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-9" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log Out&quot;}
-  (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52359}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
-*** Element info: {Using=link text, value=Log Out}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)
-	at resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)
-	at &#10045;.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -802,7 +720,7 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-10">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -814,13 +732,13 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
 
     </div>
 
-    <div id="after-10" class="inner-level collapse collapsable-details ">
+    <div id="after-8" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.244</span>
+  <span class="lead-duration duration">0.216</span>
 
           </div>
 
@@ -847,12 +765,12 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
       </div>
 
   
-  <span class="lead-duration duration">40.343</span>
+  <span class="lead-duration duration">35.506</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-11">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Successful Registration</span>
   
@@ -863,11 +781,11 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
   </span>
   <div class="description indention"></div>
 
-  <div id="element-11" class="collapse collapsable-details  in ">
+  <div id="element-9" class="collapse collapsable-details ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -879,13 +797,13 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
 
     </div>
 
-    <div id="before-12" class="inner-level collapse collapsable-details ">
+    <div id="before-10" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RegistrationSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">6.671</span>
+  <span class="lead-duration duration">6.598</span>
 
           </div>
 
@@ -902,9 +820,9 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-13">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -914,14 +832,14 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
 
   </div>
 
-  <div id="steps-13" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I navigate to para bank web application</span>
   
-  <span class="lead-duration duration">3.781</span>
+  <span class="lead-duration duration">3.665</span>
 
 </div>
 
@@ -947,7 +865,7 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
   <span class="keyword indention">When</span>
   <span class="name">I click on register link</span>
   
-  <span class="lead-duration duration">5.200</span>
+  <span class="lead-duration duration">0.584</span>
 
 </div>
 
@@ -973,7 +891,7 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
   <span class="keyword indention">Then</span>
   <span class="name">I enter my <span class="argument">Tau</span> , <span class="argument">New Tester</span> and <span class="argument">taunewtester</span> ,<span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.443</span>
+  <span class="lead-duration duration">0.394</span>
 
 </div>
 
@@ -999,7 +917,7 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
   <span class="keyword indention">And</span>
   <span class="name">I enter my street, city, state, zipcode and security security number</span>
   
-  <span class="lead-duration duration">0.360</span>
+  <span class="lead-duration duration">0.402</span>
 
 </div>
 
@@ -1034,7 +952,7 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
   <span class="keyword indention">And</span>
   <span class="name">I click on register button</span>
   
-  <span class="lead-duration duration">0.407</span>
+  <span class="lead-duration duration">0.336</span>
 
 </div>
 
@@ -1056,11 +974,11 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should be logged in</span>
   
-  <span class="lead-duration duration">30.149</span>
+  <span class="lead-duration duration">30.123</span>
 
 </div>
 
@@ -1068,47 +986,6 @@ Session ID: d2c5ddf5399c0ec4a5a00146b9170e4a
 
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-14">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-14" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log Out&quot;}
-  (Session info: chrome=87.0.4280.141)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.141, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52578}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 639bee464cf11007102891f4bf5b55a2
-*** Element info: {Using=link text, value=Log Out}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy20.click(Unknown Source)
-	at PageObjects.RegistrationPage.loginOut(RegistrationPage.java:104)
-	at resources.StepDefinitions.RegistrationSteps.i_should_be_logged_in(RegistrationSteps.java:80)
-	at &#10045;.I should be logged in(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File1/Registration.feature:16)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -1128,7 +1005,7 @@ Session ID: 639bee464cf11007102891f4bf5b55a2
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1140,13 +1017,13 @@ Session ID: 639bee464cf11007102891f4bf5b55a2
 
     </div>
 
-    <div id="after-15" class="inner-level collapse collapsable-details ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown()</span>
+                          <span class="location name">resources.StepDefinitions.RegistrationSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.108</span>
+  <span class="lead-duration duration">0.099</span>
 
           </div>
 

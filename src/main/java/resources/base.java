@@ -1,11 +1,15 @@
 package resources;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
@@ -50,5 +54,22 @@ public class base {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(locatorElementForXpath)));
     }
 
+    public String getScreenShotPath(String testCaseName, WebDriver driver) throws IOException {
+        // Path to store screenshot \\reports\\ -> folder
+        String pathName = System.getProperty("user.dir") + "\\reports\\" + testCaseName + ".png";
+
+        // Takes the screenshot
+        TakesScreenshot ts =(TakesScreenshot) driver;
+
+        // Creates a file and send the to the assigned destination
+        FileHandler.copy(ts.getScreenshotAs(OutputType.FILE),new File(pathName));
+
+        return pathName;
+
+    }
+
+    public byte[] getScreenshotWithoutPath(){
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
 
 }

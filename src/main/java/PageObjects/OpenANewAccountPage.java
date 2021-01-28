@@ -2,16 +2,18 @@ package PageObjects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 public class OpenANewAccountPage {
 
-    WebDriver driver;
+    public WebDriver driver;
 
+    // Constructor
     public OpenANewAccountPage(WebDriver driver) {
         this.driver = driver;
     }
 
-    WebElement openANewAccountPage;
+    @FindBy() WebElement openANewAccountPage;
 
 
     public OpenANewAccountPage(){

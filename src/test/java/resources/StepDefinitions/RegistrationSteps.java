@@ -4,10 +4,13 @@ import PageObjects.RegistrationPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import resources.base;
 
@@ -28,20 +31,20 @@ public class RegistrationSteps extends base {
     }
 
     @Given("^I navigate to para bank web application$")
-    public void i_navigate_to_para_bank_web_application() throws Throwable {
+    public void i_navigate_to_para_bank_web_application() {
 
         driver.get(prop.getProperty("url"));
     }
 
     @When("^I click on register link$")
-    public void i_click_on_register_link() throws Throwable {
+    public void i_click_on_register_link() {
 
         registrationPage.getRegistrationForm();
 
     }
 
     @Then("^I enter my (.+) , (.+) and (.+) ,(.+)$")
-    public void i_enter_my(String firstname, String lastname, String username, String password) throws Throwable {
+    public void i_enter_my(String firstname, String lastname, String username, String password) {
 
         registrationPage.enterCustomersFullName(firstname, lastname);
 
@@ -54,7 +57,7 @@ public class RegistrationSteps extends base {
     }
 
     @And("^I enter my street, city, state, zipcode and security security number$")
-    public void i_enter_my_street_city_state_and_zipcode(DataTable table) throws Throwable {
+    public void i_enter_my_street_city_state_and_zipcode(DataTable table) {
 
         List<String> addressField = table.asList();
 
@@ -64,24 +67,57 @@ public class RegistrationSteps extends base {
     }
 
     @And("^I click on register button$")
-    public void i_click_on_register_button() throws Throwable {
+    public void i_click_on_register_button() {
 
         registrationPage.completeRegistration();
 
     }
 
     @Then("^I should be logged in$")
-    public void i_should_be_logged_in() throws Throwable {
+    public void i_should_be_logged_in() {
 
-        waitExplicitlyForExpectedConditions(30,".title");
+        // Check user already registered error message. The proceed with test.
 
-        registrationPage.validateAccountPageAfterRegistration();
+        int size = driver.findElements(By.linkText("Log Out")).size();
 
-        registrationPage.loginOut();
+        if(size > 0){
+
+
+            waitExplicitlyForExpectedConditions(30,".title");
+
+            registrationPage.validateAccountPageAfterRegistration();
+
+            registrationPage.isCustomersWelcomeTextDisplayed();
+
+            Assert.assertEquals("Your account was created successfully. You are now logged in."
+                    ,"This username already exists.",registrationPage.getCustomerWelcomeText());
+
+            registrationPage.loginOut();
+
+
+        } else {
+
+            registrationPage.isCustomerUsernameErrorDisplayed();
+
+            Assert.assertEquals("The actual username error message is different from what was expected. " +
+                            "Please check and try again."
+                    ,"This username already exists.",registrationPage.getCustomerUsernameError());
+
+            System.out.println(registrationPage.getCustomerUsernameError());
+        }
+
     }
 
     @After("@Test1")
-    public void tearDown(){
+    public void tearDown(Scenario scenario){
+        if(scenario.isFailed()){
+            // Take screenshot and embed to report
+            scenario.attach(getScreenshotWithoutPath(),
+                    "image/png",
+                    String.valueOf(scenario.getUri()));
+            System.out.println("Took screenshot of failed test");
+        }
+
         driver.close();
     }
 

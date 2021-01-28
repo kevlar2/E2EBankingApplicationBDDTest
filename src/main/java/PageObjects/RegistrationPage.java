@@ -26,8 +26,11 @@ public class RegistrationPage {
     @FindBy(xpath="//input[@id='customer.username']") WebElement customerUsername;
     @FindBy(xpath="//input[@id='customer.password']") WebElement customerPassword;
     @FindBy(xpath="//input[@id='repeatedPassword']") WebElement confirmPassword;
+    @FindBy(css = "span[id*='customer.username.errors']") WebElement customerUsernameError;
     @FindBy(xpath="//input[@value='Register']") WebElement submitButton;
     @FindBy(css = ".title") WebElement accountPageTitle;
+    @FindBy(xpath = "//p[contains(text(),'Your account was created successfully. You are now logged in.')]")
+    WebElement customerWelcomeText;
     @FindBy(linkText = "Log Out") WebElement logOut;
 
 
@@ -83,6 +86,14 @@ public class RegistrationPage {
         return new RegistrationPage();
     }
 
+    public String getCustomerUsernameError(){
+        return customerUsernameError.getText().toString();
+    }
+
+    public boolean isCustomerUsernameErrorDisplayed(){
+        return customerUsernameError.isDisplayed();
+    }
+
     public void enterCustomersFullName(String customersFirstName, String customersLastName){
 
         enterCustomersFirstName(customersFirstName);
@@ -98,6 +109,14 @@ public class RegistrationPage {
     public RegistrationPage validateAccountPageAfterRegistration(){
         accountPageTitle.isDisplayed();
         return new RegistrationPage();
+    }
+
+    public String getCustomerWelcomeText(){
+        return customerWelcomeText.getText().toString();
+    }
+
+    public boolean isCustomersWelcomeTextDisplayed(){
+        return customerWelcomeText.isDisplayed();
     }
 
     public RegistrationPage loginOut(){
