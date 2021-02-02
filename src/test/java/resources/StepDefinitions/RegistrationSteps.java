@@ -89,8 +89,10 @@ public class RegistrationSteps extends base {
 
             registrationPage.isCustomersWelcomeTextDisplayed();
 
-            Assert.assertEquals("Your account was created successfully. You are now logged in."
-                    ,"This username already exists.",registrationPage.getCustomerWelcomeText());
+            Assert.assertEquals("The actual welcome text message is different from what was expected. " +
+                    "Please check and try again."
+                    ,"Your account was created successfully. You are now logged in.",
+                    registrationPage.getCustomerWelcomeText());
 
             registrationPage.loginOut();
 

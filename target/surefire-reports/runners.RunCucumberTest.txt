@@ -1,4 +1,70 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 202.001 s - in runners.RunCucumberTest
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 879.252 s <<< FAILURE! - in runners.RunCucumberTest
+Request Loan Functionality.Request a Loan Successfully #1  Time elapsed: 13.07 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[ParaBank]> but was:<[Wealth Securities Dynamic Loans (WSDL)]>
+
+Request Loan Functionality.Request a Loan Successfully #2  Time elapsed: 13.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[ParaBank]> but was:<[Wealth Securities Dynamic Loans (WSDL)]>
+
+Request Loan Functionality.Request a Loan Successfully #3  Time elapsed: 11.695 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[ParaBank]> but was:<[Wealth Securities Dynamic Loans (WSDL)]>
+
+Open a New Account Functionality.Open a new account successfully #1  Time elapsed: 642.001 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6268921d11ac5b53432b41c954e33ce
+*** Element info: {Using=css selector, value=#month}
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6268921d11ac5b53432b41c954e33ce
+
+Open a New Account Functionality.Open a new account successfully #2  Time elapsed: 71.818 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
+*** Element info: {Using=css selector, value=#month}
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
+
+Open a New Account Functionality.Open a new account successfully #3  Time elapsed: 51.606 s  <<< FAILURE!
+org.opentest4j.MultipleFailuresError: 
+Multiple Failures (2 failures)
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9ca9a259943ef25e22b246a8efaf8118
+*** Element info: {Using=css selector, value=#month}
+	org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=88.0.4324.104)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50617}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9ca9a259943ef25e22b246a8efaf8118
+

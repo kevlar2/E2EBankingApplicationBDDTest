@@ -86,7 +86,7 @@ public class RequestLoanSteps extends base {
 
         System.out.println(requestLoanPage.getLoanProviderName());
         Assert.assertEquals("Actual text is different from expected text. Please check and try again.",
-                "ParaBank", requestLoanPage.getLoanProviderName());
+                "Wealth Securities Dynamic Loans (WSDL)", requestLoanPage.getLoanProviderName());
 
         Assert.assertTrue("Response date is not displayed as expected please check and try again.",
                 requestLoanPage.isResponseDateDisplayed());

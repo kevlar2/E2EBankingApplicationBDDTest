@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>E2E-Banking-Application-BDD-Test</td>
               <td>1</td>
-            <td>28 Jan 2021, 10:16</td>
+            <td>02 Feb 2021, 09:54</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@Test3</td>
-          <td      class="passed"    >18</td>
-          <td >0</td>
+          <td      class="passed"    >15</td>
+          <td      class="failed"    >3</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">18</td>
 
-          <td  class="passed"    >3</td>
           <td >0</td>
+          <td  class="failed"    >3</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="7488195900">7.488</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="8328912700">8.328</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -183,12 +183,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">2.240</span>
+  <span class="lead-duration duration">3.220</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Request a Loan Successfully</span>
   
@@ -199,7 +199,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
@@ -221,7 +221,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.363</span>
+  <span class="lead-duration duration">9.208</span>
 
           </div>
 
@@ -238,9 +238,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -250,14 +250,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am am logged into para bank with a valid <span class="argument">autotester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.901</span>
+  <span class="lead-duration duration">1.568</span>
 
 </div>
 
@@ -283,7 +283,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I click on request loan link</span>
   
-  <span class="lead-duration duration">0.371</span>
+  <span class="lead-duration duration">0.375</span>
 
 </div>
 
@@ -309,7 +309,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I am taken to Apply for a Loan page</span>
   
-  <span class="lead-duration duration">0.056</span>
+  <span class="lead-duration duration">0.049</span>
 
 </div>
 
@@ -335,7 +335,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter loan details</span>
   
-  <span class="lead-duration duration">0.292</span>
+  <span class="lead-duration duration">0.271</span>
 
 </div>
 
@@ -367,7 +367,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on apply now</span>
   
-  <span class="lead-duration duration">0.087</span>
+  <span class="lead-duration duration">0.071</span>
 
 </div>
 
@@ -389,11 +389,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">i should now be taken to loan confirmation screen</span>
   
-  <span class="lead-duration duration">0.529</span>
+  <span class="lead-duration duration">0.882</span>
 
 </div>
 
@@ -401,6 +401,21 @@ $(document).ready(function() {
 
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
+	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -420,7 +435,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -432,13 +447,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.108</span>
+  <span class="lead-duration duration">0.618</span>
 
           </div>
 
@@ -447,6 +462,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
+      <a href="embeddings/embedding_1548747221.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1548747221.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>
@@ -469,12 +499,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">2.768</span>
+  <span class="lead-duration duration">2.949</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Request a Loan Successfully</span>
   
@@ -485,11 +515,11 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -501,13 +531,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-6" class="inner-level collapse collapsable-details ">
+    <div id="before-8" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.431</span>
+  <span class="lead-duration duration">9.596</span>
 
           </div>
 
@@ -524,9 +554,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -536,14 +566,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-7" class="inner-level collapse collapsable-details ">
+  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am am logged into para bank with a valid <span class="argument">autotester2</span> and <span class="argument">password2</span></span>
   
-  <span class="lead-duration duration">1.065</span>
+  <span class="lead-duration duration">1.610</span>
 
 </div>
 
@@ -569,7 +599,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I click on request loan link</span>
   
-  <span class="lead-duration duration">0.377</span>
+  <span class="lead-duration duration">0.418</span>
 
 </div>
 
@@ -595,7 +625,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I am taken to Apply for a Loan page</span>
   
-  <span class="lead-duration duration">0.046</span>
+  <span class="lead-duration duration">0.066</span>
 
 </div>
 
@@ -621,7 +651,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter loan details</span>
   
-  <span class="lead-duration duration">0.286</span>
+  <span class="lead-duration duration">0.311</span>
 
 </div>
 
@@ -653,7 +683,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on apply now</span>
   
-  <span class="lead-duration duration">0.100</span>
+  <span class="lead-duration duration">0.078</span>
 
 </div>
 
@@ -675,11 +705,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">i should now be taken to loan confirmation screen</span>
   
-  <span class="lead-duration duration">0.890</span>
+  <span class="lead-duration duration">0.464</span>
 
 </div>
 
@@ -687,6 +717,21 @@ $(document).ready(function() {
 
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
+	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -706,7 +751,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -718,13 +763,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-8" class="inner-level collapse collapsable-details ">
+    <div id="after-11" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.133</span>
+  <span class="lead-duration duration">0.451</span>
 
           </div>
 
@@ -733,6 +778,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
+      <a href="embeddings/embedding_1087177052.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-12" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1087177052.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>
@@ -755,12 +815,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">2.479</span>
+  <span class="lead-duration duration">2.158</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Request a Loan Successfully</span>
   
@@ -771,11 +831,11 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -787,13 +847,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-10" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.429</span>
+  <span class="lead-duration duration">8.806</span>
 
           </div>
 
@@ -810,9 +870,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -822,14 +882,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-11" class="inner-level collapse collapsable-details ">
+  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">I am am logged into para bank with a valid <span class="argument">taunewtester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.813</span>
+  <span class="lead-duration duration">0.784</span>
 
 </div>
 
@@ -855,7 +915,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">I click on request loan link</span>
   
-  <span class="lead-duration duration">0.777</span>
+  <span class="lead-duration duration">0.405</span>
 
 </div>
 
@@ -881,7 +941,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">I am taken to Apply for a Loan page</span>
   
-  <span class="lead-duration duration">0.052</span>
+  <span class="lead-duration duration">0.048</span>
 
 </div>
 
@@ -907,7 +967,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I enter loan details</span>
   
-  <span class="lead-duration duration">0.291</span>
+  <span class="lead-duration duration">0.435</span>
 
 </div>
 
@@ -939,7 +999,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">I click on apply now</span>
   
-  <span class="lead-duration duration">0.077</span>
+  <span class="lead-duration duration">0.059</span>
 
 </div>
 
@@ -961,11 +1021,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">And</span>
   <span class="name">i should now be taken to loan confirmation screen</span>
   
-  <span class="lead-duration duration">0.467</span>
+  <span class="lead-duration duration">0.423</span>
 
 </div>
 
@@ -973,6 +1033,21 @@ $(document).ready(function() {
 
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
+	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -992,7 +1067,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1004,13 +1079,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-12" class="inner-level collapse collapsable-details ">
+    <div id="after-17" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.110</span>
+  <span class="lead-duration duration">0.716</span>
 
           </div>
 
@@ -1019,6 +1094,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-18" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
+      <a href="embeddings/embedding_-1364068852.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-18" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_-1364068852.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>

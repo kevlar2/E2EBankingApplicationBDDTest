@@ -41,10 +41,9 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 1) - Failures Overview</title>
+<title>Cucumber Reports (no 1) - Feature: Open a New Account Functionality</title>
 
 </head>
-
 <body>
 
 <nav class="navbar navbar-default navbar-fixed-top" id="navigation">
@@ -55,7 +54,7 @@ $(document).ready(function() {
                 <li role="presentation" ><a href="overview-features.html">Features</a></li>
         <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
         <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
-                <li role="presentation"  class="active" ><a href="overview-failures.html">Failures</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
       </ul>
     </div>
   </div>
@@ -90,12 +89,69 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Failures Overview</h2>
-          <p>The following summary displays scenarios that failed.</p>
+    <h2>Feature Report</h2>
       </div>
 </div>
 
-  
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">Open a New Account Functionality</td>
+          <td      class="passed"    >18</td>
+          <td      class="failed"    >3</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">21</td>
+
+          <td >0</td>
+          <td  class="failed"    >3</td>
+          <td class="total">3</td>
+
+          <td class="duration" data-value="700851864100">11:40.851</td>
+          <td class="failed">Failed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-1 col-md-offset-10">
@@ -111,30 +167,44 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
 
-              <div class="elements">
+        
+<div class="brief failed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">Open a New Account Functionality</span>
+  
+
+  </div>
+
+        <div class="description indention">  In order to open a new Account
+  As a valid Para Bank customer
+  I want to log in successfully
+  I want to navigate to open new account page
+  I want to complete the new account opening process successfully</div>
+
+        <div class="elements inner-level">
                       
 <div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_2_1078522322.html">Request Loan Functionality</a>
-    </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448128.html">@Test3</a>
+           <a href="report-tag_4060448129.html">@Test4</a>
       </div>
 
   
-  <span class="lead-duration duration">3.220</span>
+  <span class="lead-duration duration">10:20.378</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
 <div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Request a Loan Successfully</span>
+  <span class="name">Open a new account successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -163,9 +233,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.208</span>
+  <span class="lead-duration duration">9.440</span>
 
           </div>
 
@@ -195,954 +265,6 @@ $(document).ready(function() {
   </div>
 
   <div id="steps-3" class="inner-level collapse collapsable-details  in ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I am am logged into para bank with a valid <span class="argument">autotester</span> and <span class="argument">password</span></span>
-  
-  <span class="lead-duration duration">1.568</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click on request loan link</span>
-  
-  <span class="lead-duration duration">0.375</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I am taken to Apply for a Loan page</span>
-  
-  <span class="lead-duration duration">0.049</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I enter loan details</span>
-  
-  <span class="lead-duration duration">0.271</span>
-
-</div>
-
-        
-
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>1000</td>
-                                  <td>500</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I click on apply now</span>
-  
-  <span class="lead-duration duration">0.071</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief failed">
-  <span class="keyword indention">And</span>
-  <span class="name">i should now be taken to loan confirmation screen</span>
-  
-  <span class="lead-duration duration">0.882</span>
-
-</div>
-
-        
-
-
-        
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.junit.ComparisonFailure:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
-	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-      </div>
-</div>
-
-
-    
-
-  <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="after-5" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
-                        
-  <span class="lead-duration duration">0.618</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-    <div class="embeddings inner-level">
-                    <div class="embedding indention">
-        <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
-      <a href="embeddings/embedding_1548747221.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1548747221.png">
-      </div>
-    </div>
-  </div>
-            </div>
-  
-        </div>
-          </div>
-  </div>
-
-  </div>
-</div>
-
-                      
-<div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_2_1078522322.html">Request Loan Functionality</a>
-    </div>
-  
-  
-<div class="tags indention">
-      <b>Tags:</b>
-           <a href="report-tag_4060448128.html">@Test3</a>
-      </div>
-
-  
-  <span class="lead-duration duration">2.949</span>
-
-
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
-    
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Request a Loan Successfully</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-7" class="collapse collapsable-details  in ">
-    
-
-  <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="before-8" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
-                        
-  <span class="lead-duration duration">9.596</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-  
-        </div>
-          </div>
-  </div>
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
-    
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I am am logged into para bank with a valid <span class="argument">autotester2</span> and <span class="argument">password2</span></span>
-  
-  <span class="lead-duration duration">1.610</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click on request loan link</span>
-  
-  <span class="lead-duration duration">0.418</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I am taken to Apply for a Loan page</span>
-  
-  <span class="lead-duration duration">0.066</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I enter loan details</span>
-  
-  <span class="lead-duration duration">0.311</span>
-
-</div>
-
-        
-
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>1000</td>
-                                  <td>500</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I click on apply now</span>
-  
-  <span class="lead-duration duration">0.078</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief failed">
-  <span class="keyword indention">And</span>
-  <span class="name">i should now be taken to loan confirmation screen</span>
-  
-  <span class="lead-duration duration">0.464</span>
-
-</div>
-
-        
-
-
-        
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>org.junit.ComparisonFailure:</a>
-      </div>
-      <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
-	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-      </div>
-</div>
-
-
-    
-
-  <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="after-11" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
-                        
-  <span class="lead-duration duration">0.451</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-    <div class="embeddings inner-level">
-                    <div class="embedding indention">
-        <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
-      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
-      <a href="embeddings/embedding_1087177052.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-12" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_1087177052.png">
-      </div>
-    </div>
-  </div>
-            </div>
-  
-        </div>
-          </div>
-  </div>
-
-  </div>
-</div>
-
-                      
-<div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_2_1078522322.html">Request Loan Functionality</a>
-    </div>
-  
-  
-<div class="tags indention">
-      <b>Tags:</b>
-           <a href="report-tag_4060448128.html">@Test3</a>
-      </div>
-
-  
-  <span class="lead-duration duration">2.158</span>
-
-
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
-    
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Request a Loan Successfully</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-13" class="collapse collapsable-details  in ">
-    
-
-  <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="before-14" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.initialiseWebdriver()</span>
-                        
-  <span class="lead-duration duration">8.806</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-  
-        </div>
-          </div>
-  </div>
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
-    
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Given</span>
-  <span class="name">I am am logged into para bank with a valid <span class="argument">taunewtester</span> and <span class="argument">password</span></span>
-  
-  <span class="lead-duration duration">0.784</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click on request loan link</span>
-  
-  <span class="lead-duration duration">0.405</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I am taken to Apply for a Loan page</span>
-  
-  <span class="lead-duration duration">0.048</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I enter loan details</span>
-  
-  <span class="lead-duration duration">0.435</span>
-
-</div>
-
-        
-
-
-        
-
-
-                  <table class="step-arguments">
-                          <tr>
-                                  <td>1000</td>
-                                  <td>500</td>
-                              </tr>
-                      </table>
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">I click on apply now</span>
-  
-  <span class="lead-duration duration">0.059</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief failed">
-  <span class="keyword indention">And</span>
-  <span class="name">i should now be taken to loan confirmation screen</span>
-  
-  <span class="lead-duration duration">0.423</span>
-
-</div>
-
-        
-
-
-        
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
-          <a>org.junit.ComparisonFailure:</a>
-      </div>
-      <div id="msg-16" class="collapse collapsable-details  in ">
-        <pre>org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:&lt;[ParaBank]&gt; but was:&lt;[Wealth Securities Dynamic Loans (WSDL)]&gt;
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at resources.StepDefinitions.RequestLoanSteps.i_should_now_be_take_to_loan_confirmation_screen(RequestLoanSteps.java:88)
-	at &#10045;.i should now be taken to loan confirmation screen(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature:18)
-</pre>
-      </div>
-    </div>
-  </div>
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-      </div>
-</div>
-
-
-    
-
-  <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="after-17" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.RequestLoanSteps.tearDown(io.cucumber.java.Scenario)</span>
-                        
-  <span class="lead-duration duration">0.716</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-    <div class="embeddings inner-level">
-                    <div class="embedding indention">
-        <div data-toggle="collapse" data-target="#embedding-18" class="collapsable-control">
-      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File3/RequestLoan.feature</a>
-      <a href="embeddings/embedding_-1364068852.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-18" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-1364068852.png">
-      </div>
-    </div>
-  </div>
-            </div>
-  
-        </div>
-          </div>
-  </div>
-
-  </div>
-</div>
-
-                      
-<div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3_3999333382.html">Open a New Account Functionality</a>
-    </div>
-  
-  
-<div class="tags indention">
-      <b>Tags:</b>
-           <a href="report-tag_4060448129.html">@Test4</a>
-      </div>
-
-  
-  <span class="lead-duration duration">10:20.378</span>
-
-
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-19">
-    
-<div class="brief failed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Open a new account successfully</span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </span>
-  <div class="description indention"></div>
-
-  <div id="element-19" class="collapse collapsable-details  in ">
-    
-
-  <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-20">
-      
-<div class="brief passed">
-  <span class="keyword indention">Hooks</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-    </div>
-
-    <div id="before-20" class="inner-level collapse collapsable-details ">
-              <div class="hook">
-          <div class="brief passed">
-            <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.initialiseWebdriver()</span>
-                        
-  <span class="lead-duration duration">9.440</span>
-
-          </div>
-
-                      
-
-          
-                    
-          
-  
-        </div>
-          </div>
-  </div>
-
-
-    
-<div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-21">
-    
-<div class="brief failed">
-  <span class="keyword indention">Steps</span>
-  <span class="name"></span>
-  
-
-       <i class="chevron fa fa-fw"></i>
-  </div>
-
-  </div>
-
-  <div id="steps-21" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -1316,10 +438,10 @@ $(document).ready(function() {
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-22">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
           <a>org.openqa.selenium.WebDriverException:</a>
       </div>
-      <div id="msg-22" class="collapse collapsable-details  in ">
+      <div id="msg-4" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -1373,7 +495,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-23">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-5">
       
 <div class="brief failed">
   <span class="keyword indention">Hooks</span>
@@ -1385,7 +507,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
     </div>
 
-    <div id="after-23" class="inner-level collapse collapsable-details  in ">
+    <div id="after-5" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
           <div class="brief failed">
             <span class="keyword indention">After</span>
@@ -1399,10 +521,10 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-24">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
           <a>Error message</a>
       </div>
-      <div id="msg-24" class="collapse collapsable-details  in ">
+      <div id="msg-6" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -1443,10 +565,6 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
                       
 <div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3_3999333382.html">Open a New Account Functionality</a>
-    </div>
   
   
 <div class="tags indention">
@@ -1458,7 +576,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
   <span class="lead-duration duration">50.729</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-25">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
     
 <div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1471,11 +589,11 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
   </span>
   <div class="description indention"></div>
 
-  <div id="element-25" class="collapse collapsable-details  in ">
+  <div id="element-7" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-26">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1487,7 +605,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
     </div>
 
-    <div id="before-26" class="inner-level collapse collapsable-details ">
+    <div id="before-8" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
@@ -1510,7 +628,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-27">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -1522,7 +640,7 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
   </div>
 
-  <div id="steps-27" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -1696,10 +814,10 @@ Session ID: f6268921d11ac5b53432b41c954e33ce
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-28">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
           <a>org.openqa.selenium.WebDriverException:</a>
       </div>
-      <div id="msg-28" class="collapse collapsable-details  in ">
+      <div id="msg-10" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -1753,7 +871,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-29">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-11">
       
 <div class="brief failed">
   <span class="keyword indention">Hooks</span>
@@ -1765,7 +883,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
     </div>
 
-    <div id="after-29" class="inner-level collapse collapsable-details  in ">
+    <div id="after-11" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
           <div class="brief failed">
             <span class="keyword indention">After</span>
@@ -1779,10 +897,10 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-30">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-12">
           <a>Error message</a>
       </div>
-      <div id="msg-30" class="collapse collapsable-details  in ">
+      <div id="msg-12" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -1823,10 +941,6 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
                       
 <div class="element">
-      <div class="indention">
-      <b>Feature:</b>
-      <a href="report-feature_3_3999333382.html">Open a New Account Functionality</a>
-    </div>
   
   
 <div class="tags indention">
@@ -1838,7 +952,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
   <span class="lead-duration duration">29.744</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-31">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
     
 <div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1851,11 +965,11 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
   </span>
   <div class="description indention"></div>
 
-  <div id="element-31" class="collapse collapsable-details  in ">
+  <div id="element-13" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-32">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1867,7 +981,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
     </div>
 
-    <div id="before-32" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
@@ -1890,7 +1004,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-33">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
     
 <div class="brief failed">
   <span class="keyword indention">Steps</span>
@@ -1902,7 +1016,7 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
   </div>
 
-  <div id="steps-33" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
@@ -2076,10 +1190,10 @@ Session ID: 5b8a6d2f1f94ad3daa3830581c62b2d2
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-34">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
           <a>org.openqa.selenium.WebDriverException:</a>
       </div>
-      <div id="msg-34" class="collapse collapsable-details  in ">
+      <div id="msg-16" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -2133,7 +1247,7 @@ Session ID: 9ca9a259943ef25e22b246a8efaf8118
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-35">
+        <div data-toggle="collapse" class=" collapsable-control" data-target="#after-17">
       
 <div class="brief failed">
   <span class="keyword indention">Hooks</span>
@@ -2145,7 +1259,7 @@ Session ID: 9ca9a259943ef25e22b246a8efaf8118
 
     </div>
 
-    <div id="after-35" class="inner-level collapse collapsable-details  in ">
+    <div id="after-17" class="inner-level collapse collapsable-details  in ">
               <div class="hook">
           <div class="brief failed">
             <span class="keyword indention">After</span>
@@ -2159,10 +1273,10 @@ Session ID: 9ca9a259943ef25e22b246a8efaf8118
 
   <div class="inner-level">
     <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-36">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-18">
           <a>Error message</a>
       </div>
-      <div id="msg-36" class="collapse collapsable-details  in ">
+      <div id="msg-18" class="collapse collapsable-details  in ">
         <pre>org.openqa.selenium.WebDriverException: chrome not reachable
   (Session info: chrome=88.0.4324.104)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -2202,12 +1316,13 @@ Session ID: 9ca9a259943ef25e22b246a8efaf8118
 </div>
 
                   </div>
-      
+
+      </div>
     </div>
   </div>
 </div>
 
-  
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-1 col-md-offset-10">
