@@ -17,9 +17,9 @@ public class OpenANewAccountPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//a[contains(text(),'Open New Account')]") WebElement openANewAccountPage;
-    @FindBy(css = ".title") WebElement pageTitle;
-    @FindBy(css = "select[id='type']") WebElement accountTypeToSelect;
+    @FindBy(xpath = "//a[contains(text(),'Open New Account')]") private WebElement openANewAccountPage;
+    @FindBy(css = ".title") private WebElement pageTitle;
+    @FindBy(css = "select[id='type']") private WebElement accountTypeToSelect;
     @FindBy(css = "select[id='fromAccountId']") WebElement accountToTransferFrom;
     @FindBy(css = "input[value*='Open New Account']") WebElement openNewAccount;
     @FindBy(css = "h1[class='title']") WebElement accountOpenedPageTitle; // Account Opened!
@@ -120,6 +120,10 @@ public class OpenANewAccountPage {
         Select select = new Select(this.transactionType);
         select.selectByValue(transactionType);
         return new OpenANewAccountPage();
+    }
+
+    public String conformTransactionOnAccount(){
+        return transaction.getText();
     }
 
     public OpenANewAccountPage clickOnGo(){

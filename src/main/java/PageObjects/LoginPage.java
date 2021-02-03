@@ -19,12 +19,12 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(css = "input[name$='username']") WebElement customerUsername;
-    @FindBy(css = "input[name$='password']") WebElement customerPassword;
-    @FindBy(css = "input[value='Log In']") WebElement Login;
-    @FindBy(css = ".smallText") WebElement accountUserFullName;
-    @FindBy(css = ".title") WebElement accountPageTitle;
-    @FindBy(linkText = "Log Out") WebElement logOut;
+    @FindBy(css = "input[name$='username']") private WebElement customerUsername;
+    @FindBy(css = "input[name$='password']") private WebElement customerPassword;
+    @FindBy(css = "input[value='Log In']") private WebElement Login;
+    @FindBy(css = ".smallText") private WebElement accountUserFullName;
+    @FindBy(css = ".title") private WebElement accountPageTitle;
+    @FindBy(linkText = "Log Out") private WebElement logOut;
 
 
 

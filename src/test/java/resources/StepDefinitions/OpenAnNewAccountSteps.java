@@ -21,8 +21,8 @@ public class OpenAnNewAccountSteps extends base {
     WebDriver driver;
     OpenANewAccountPage openANewAccountPage;
     LoginPage userLogin;
-    public String accountID;
-    public String accountType = "SAVINGS";
+    private String accountID;
+    private final String accountType = "SAVINGS";
 
     @Before("@Test4")
     public void initialiseWebdriver() throws IOException {
@@ -124,6 +124,13 @@ public class OpenAnNewAccountSteps extends base {
         openANewAccountPage.selectTransactionType("Credit");
 
         openANewAccountPage.clickOnGo();
+
+        System.out.println(openANewAccountPage.conformTransactionOnAccount());
+
+        Assert.assertTrue("'Funds Transfer Received' not displayed",
+                openANewAccountPage.conformTransactionOnAccount().equals("Funds Transfer Received"));
+
+        // Funds Transfer Received
 
         userLogin.customerLogout();
 
