@@ -48,28 +48,28 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels:  [ "@Test1",  "@Test2",  "@Test3",  "@Test4", ] ,
+        labels:  [ "@Test1",  "@Test2",  "@Test3",  "@Test4",  "@Test5", ] ,
         datasets: [
             {
                 label: "Passed",
                 backgroundColor: "#92DD96",
-                data:  [ 100.00,  100.00,  83.33,  100.00, ]             },
+                data:  [ 100.00,  100.00,  100.00,  100.00,  80.00, ]             },
             {
                 label: "Failed",
                 backgroundColor: "#F2928C",
-                data:  [ 0.00,  0.00,  16.67,  0.00, ]             },
+                data:  [ 0.00,  0.00,  0.00,  0.00,  20.00, ]             },
             {
                 label: "Skipped",
                 backgroundColor: "#8AF",
-                data:  [ 0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             },
             {
                 label: "Pending",
                 backgroundColor: "#F5F28F",
-                data:  [ 0.00,  0.00,  0.00,  0.00, ]             },
+                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             },
             {
                 label: "Undefined",
                 backgroundColor: "#F5B975",
-                data:  [ 0.00,  0.00,  0.00,  0.00, ]             }
+                data:  [ 0.00,  0.00,  0.00,  0.00,  0.00, ]             }
         ]
     };
 
@@ -130,7 +130,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>E2E-Banking-Application-BDD-Test</td>
               <td>1</td>
-            <td>03 Feb 2021, 19:52</td>
+            <td>06 Feb 2021, 16:33</td>
     </tr>
   </tbody>
 </table>
@@ -205,7 +205,7 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="21396643500">21.396</td>
+        <td class="duration" data-value="105947533900">1:45.947</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -222,25 +222,25 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="6758366300">6.758</td>
+        <td class="duration" data-value="7357634800">7.357</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="report-tag_4060448128.html">@Test3</a></td>
 
-        <td      class="passed"    >15</td>
-        <td      class="failed"    >3</td>
+        <td      class="passed"    >18</td>
+        <td >0</td>
         <td >0</td>
         <td >0</td>
         <td >0</td>
         <td class="total">18</td>
 
+        <td  class="passed"    >3</td>
         <td >0</td>
-        <td  class="failed"    >3</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="96354464900">1:36.354</td>
-        <td class="failed">Failed</td>
+        <td class="duration" data-value="9738534700">9.738</td>
+        <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="report-tag_4060448129.html">@Test4</a></td>
@@ -256,41 +256,58 @@ $(document).ready(function() {
         <td >0</td>
         <td class="total">3</td>
 
-        <td class="duration" data-value="21804291300">21.804</td>
+        <td class="duration" data-value="22839798700">22.839</td>
         <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="report-tag_4060448130.html">@Test5</a></td>
+
+        <td      class="passed"    >12</td>
+        <td      class="failed"    >3</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">15</td>
+
+        <td >0</td>
+        <td  class="failed"    >3</td>
+        <td class="total">3</td>
+
+        <td class="duration" data-value="12696208200">12.696</td>
+        <td class="failed">Failed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>66</td>
+      <td>81</td>
       <td>3</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>69</td>
+      <td>84</td>
 
-      <td>9</td>
-      <td>3</td>
       <td>12</td>
+      <td>3</td>
+      <td>15</td>
 
-      <td class="duration">2:26.313</td>
-      <td>4</td>
+      <td class="duration">2:38.579</td>
+      <td>5</td>
     </tr>
     <tr>
       <td></td>
-            <td>95.65%</td>
-      <td>4.35%</td>
+            <td>96.43%</td>
+      <td>3.57%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>75.00%</td>
-      <td>25.00%</td>
+      <td>80.00%</td>
+      <td>20.00%</td>
       <td></td>
       <td></td>
-      <td>75.00%</td>
+      <td>80.00%</td>
     </tr>
   </tfoot>
 </table>

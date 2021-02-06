@@ -1,3 +1,4 @@
+resources\StepDefinitions\TransferFundsSteps.class
 resources\StepDefinitions\OpenAnNewAccountSteps.class
 resources\StepDefinitions\LoginSteps.class
 resources\StepDefinitions\RequestLoanSteps.class

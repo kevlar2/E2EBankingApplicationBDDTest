@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 1) - Feature: Login Functionality</title>
+<title>Cucumber Reports (no 1) - Feature: Transfer Funds Functionality</title>
 
 </head>
 <body>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Login Functionality</td>
+          <td class="tagname">Transfer Funds Functionality</td>
           <td      class="passed"    >12</td>
+          <td      class="failed"    >3</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td class="total">12</td>
+          <td class="total">15</td>
 
-          <td  class="passed"    >3</td>
           <td >0</td>
+          <td  class="failed"    >3</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="7357634800">7.357</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="12696208200">12.696</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -173,16 +173,18 @@ $(document).ready(function() {
   </div>
 
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
-  <span class="name">Login Functionality</span>
+  <span class="name">Transfer Funds Functionality</span>
   
 
   </div>
 
-        <div class="description indention">  In order to do internet banking
-  As a valid Para Bank customer
-  I want to log in successfully</div>
+        <div class="description indention">    In order to Transfer funds as valid para bank customer
+    I want to log in successfully
+    I want to navigate to Transfer funds page
+    I want to enter amount to Transfer and account details 
+    I want to complete transfer successfully </div>
 
         <div class="elements inner-level">
                       
@@ -191,18 +193,18 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448127.html">@Test2</a>
+           <a href="report-tag_4060448130.html">@Test5</a>
       </div>
 
   
-  <span class="lead-duration duration">2.860</span>
+  <span class="lead-duration duration">4.212</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Transfer funds successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -211,7 +213,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
@@ -231,9 +233,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.139</span>
+  <span class="lead-duration duration">9.410</span>
 
           </div>
 
@@ -250,9 +252,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -262,14 +264,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details ">
+  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">That I am logged into para bank with a valid <span class="argument">autotester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.878</span>
 
 </div>
 
@@ -292,36 +294,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">autotester</span> and <span class="argument">password</span> with <span class="argument">Welcome Auto Tester</span></span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I navigate to transfer funds page</span>
   
-  <span class="lead-duration duration">0.220</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
-  
-  <span class="lead-duration duration">1.811</span>
+  <span class="lead-duration duration">0.362</span>
 
 </div>
 
@@ -345,9 +321,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter amount to transfer and account details</span>
   
-  <span class="lead-duration duration">0.825</span>
+  <span class="lead-duration duration">2.571</span>
 
 </div>
 
@@ -355,6 +331,73 @@ $(document).ready(function() {
 
 
         
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click transfer</span>
+  
+  <span class="lead-duration duration">0.065</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be taken transfer complete page</span>
+  
+  <span class="lead-duration duration">0.335</span>
+
+</div>
+
+        
+
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:&lt;[]&gt; but was:&lt;[$1000.00]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.TransferFundsSteps.i_should_be_taken_transfer_complete_page(TransferFundsSteps.java:72)
+	at &#10045;.I should be taken transfer complete page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature:16)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -374,7 +417,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -386,13 +429,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-4" class="inner-level collapse collapsable-details ">
+    <div id="after-5" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.111</span>
+  <span class="lead-duration duration">0.524</span>
 
           </div>
 
@@ -401,6 +444,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature</a>
+      <a href="embeddings/embedding_1726680929.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-6" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1726680929.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>
@@ -415,18 +473,18 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448127.html">@Test2</a>
+           <a href="report-tag_4060448130.html">@Test5</a>
       </div>
 
   
-  <span class="lead-duration duration">2.449</span>
+  <span class="lead-duration duration">4.093</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Transfer funds successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -435,11 +493,11 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-6">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -451,13 +509,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-6" class="inner-level collapse collapsable-details ">
+    <div id="before-8" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.412</span>
+  <span class="lead-duration duration">9.272</span>
 
           </div>
 
@@ -474,9 +532,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -486,14 +544,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-7" class="inner-level collapse collapsable-details ">
+  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">That I am logged into para bank with a valid <span class="argument">autotester2</span> and <span class="argument">password2</span></span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.854</span>
 
 </div>
 
@@ -516,36 +574,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">autotester2</span> and <span class="argument">password2</span> with <span class="argument">Welcome Auto Tester 2</span></span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I navigate to transfer funds page</span>
   
-  <span class="lead-duration duration">0.193</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
-  
-  <span class="lead-duration duration">1.136</span>
+  <span class="lead-duration duration">0.382</span>
 
 </div>
 
@@ -569,9 +601,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter amount to transfer and account details</span>
   
-  <span class="lead-duration duration">1.120</span>
+  <span class="lead-duration duration">2.558</span>
 
 </div>
 
@@ -579,6 +611,73 @@ $(document).ready(function() {
 
 
         
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click transfer</span>
+  
+  <span class="lead-duration duration">0.075</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be taken transfer complete page</span>
+  
+  <span class="lead-duration duration">0.221</span>
+
+</div>
+
+        
+
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:&lt;[]&gt; but was:&lt;[$1000.00]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.TransferFundsSteps.i_should_be_taken_transfer_complete_page(TransferFundsSteps.java:72)
+	at &#10045;.I should be taken transfer complete page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature:16)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -598,7 +697,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-8">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -610,13 +709,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-8" class="inner-level collapse collapsable-details ">
+    <div id="after-11" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.595</span>
+  <span class="lead-duration duration">0.586</span>
 
           </div>
 
@@ -625,6 +724,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature</a>
+      <a href="embeddings/embedding_1893096142.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-12" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_1893096142.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>
@@ -639,18 +753,18 @@ $(document).ready(function() {
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448127.html">@Test2</a>
+           <a href="report-tag_4060448130.html">@Test5</a>
       </div>
 
   
-  <span class="lead-duration duration">2.048</span>
+  <span class="lead-duration duration">4.390</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-13">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Login Successful</span>
+  <span class="name">Transfer funds successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -659,11 +773,11 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details  in ">
     
 
   <div class="inner-level hooks-element-before">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-10">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -675,13 +789,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="before-10" class="inner-level collapse collapsable-details ">
+    <div id="before-14" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">9.678</span>
+  <span class="lead-duration duration">9.392</span>
 
           </div>
 
@@ -698,9 +812,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-15">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -710,14 +824,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-11" class="inner-level collapse collapsable-details ">
+  <div id="steps-15" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am in the login page of the para bank web application</span>
+  <span class="name">That I am logged into para bank with a valid <span class="argument">taunewtester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.159</span>
 
 </div>
 
@@ -740,36 +854,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I enter a valid <span class="argument">taunewtester</span> and <span class="argument">password</span> with <span class="argument">Welcome Tau New Tester</span></span>
+  <span class="keyword indention">Then</span>
+  <span class="name">I navigate to transfer funds page</span>
   
-  <span class="lead-duration duration">0.191</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click Log in</span>
-  
-  <span class="lead-duration duration">1.011</span>
+  <span class="lead-duration duration">0.407</span>
 
 </div>
 
@@ -793,9 +881,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I should be taken to the Overview page</span>
+  <span class="name">I enter amount to transfer and account details</span>
   
-  <span class="lead-duration duration">0.844</span>
+  <span class="lead-duration duration">2.459</span>
 
 </div>
 
@@ -803,6 +891,73 @@ $(document).ready(function() {
 
 
         
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click transfer</span>
+  
+  <span class="lead-duration duration">0.078</span>
+
+</div>
+
+        
+
+
+        
+
+
+        
+        
+
+        
+        
+  
+        
+
+
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">I should be taken transfer complete page</span>
+  
+  <span class="lead-duration duration">0.285</span>
+
+</div>
+
+        
+
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-16">
+          <a>org.junit.ComparisonFailure:</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details  in ">
+        <pre>org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:&lt;[]&gt; but was:&lt;[$1000.00]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at resources.StepDefinitions.TransferFundsSteps.i_should_be_taken_transfer_complete_page(TransferFundsSteps.java:72)
+	at &#10045;.I should be taken transfer complete page(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature:16)
+</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -822,7 +977,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -834,13 +989,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-12" class="inner-level collapse collapsable-details ">
+    <div id="after-17" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.LoginSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.TransferFundsSteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.126</span>
+  <span class="lead-duration duration">0.713</span>
 
           </div>
 
@@ -849,6 +1004,21 @@ $(document).ready(function() {
           
                     
           
+    <div class="embeddings inner-level">
+                    <div class="embedding indention">
+        <div data-toggle="collapse" data-target="#embedding-18" class="collapsable-control">
+      <a>file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File5/TransferFunds.feature</a>
+      <a href="embeddings/embedding_673796154.png" download target="_blank">
+        <span class="download-button glyphicon glyphicon-download-alt"></span>
+      </a>
+    </div>
+    <div id="embedding-18" class="collapse collapsable-details ">
+      <div class="embedding-content">
+        <img src="embeddings/embedding_673796154.png">
+      </div>
+    </div>
+  </div>
+            </div>
   
         </div>
           </div>

@@ -1,43 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 259.859 s <<< FAILURE! - in runners.RunCucumberTest
-Request Loan Functionality.Request a Loan Successfully #1  Time elapsed: 41.641 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #loanProviderName (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#loanProviderName"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51595}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: bbec10f5dff5600167a5a767e97f5c5e
-*** Element info: {Using=css selector, value=#loanProviderName}
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 299.2 s <<< FAILURE! - in runners.RunCucumberTest
+Transfer Funds Functionality.Transfer funds successfully #1  Time elapsed: 14.168 s  <<< FAILURE!
+org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
 
-Request Loan Functionality.Request a Loan Successfully #2  Time elapsed: 42.667 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #loanProviderName (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#loanProviderName"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51907}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d9d0b31102e1eb62861c91e73666f5d3
-*** Element info: {Using=css selector, value=#loanProviderName}
+Transfer Funds Functionality.Transfer funds successfully #2  Time elapsed: 13.96 s  <<< FAILURE!
+org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
 
-Request Loan Functionality.Request a Loan Successfully #3  Time elapsed: 41.743 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #loanProviderName (tried for 30 second(s) with 500 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#loanProviderName"}
-  (Session info: chrome=88.0.4324.104)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52241}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c7fd30586923e1d98c3d166729018a48
-*** Element info: {Using=css selector, value=#loanProviderName}
+Transfer Funds Functionality.Transfer funds successfully #3  Time elapsed: 14.504 s  <<< FAILURE!
+org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
 

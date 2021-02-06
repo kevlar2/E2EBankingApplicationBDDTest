@@ -11,8 +11,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import resources.base;
 
@@ -21,10 +19,8 @@ import java.util.List;
 
 public class RequestLoanSteps extends base {
 
-    public WebDriver driver;
-
+    private WebDriver driver;
     RequestLoanPage requestLoanPage;
-
     LoginPage userLogin;
 
     @Before("@Test3")

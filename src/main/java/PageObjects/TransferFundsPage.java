@@ -1,5 +1,6 @@
 package PageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class TransferFundsPage {
 
     public WebDriver driver;
+
 
     public TransferFundsPage(WebDriver driver){
         this.driver=driver;
@@ -20,8 +22,8 @@ public class TransferFundsPage {
     @FindBy(css = "select#toAccountId") private WebElement toAccountId;
     @FindBy(css = "input[value$='Transfer']") private WebElement transfer;
     @FindBy(css = "h1[class='title']") private WebElement pageTitle; // Transfer Complete!
-    @FindBy(xpath = "//p[contains(.,'$1000.00 has been transferred from account #15564 to account #15564.')]")
-    private WebElement transferConfirmationMessage; //$1000.00 has been transferred from account #15564 to account #15564.
+    @FindBy(xpath = "//div[@id='rightPanel']//p[1]") private WebElement transferConfirmationMessage;
+    //$1000.00 has been transferred from account #15564 to account #15564.
     @FindBy(css = "span#amount") private WebElement transferredAmount;
     @FindBy(css = "span#fromAccountId") private WebElement transferFromAccountId;
     @FindBy(css = "span#toAccountId") private WebElement transferToAccountId;
@@ -33,7 +35,7 @@ public class TransferFundsPage {
     }
 
     public TransferFundsPage userLogin(String username, String password){
-        LoginPage userLogin = new LoginPage();
+        LoginPage userLogin = new LoginPage(driver);
         userLogin.enterCustomerUsername(username);
         userLogin.enterCustomerPassword(password);
         userLogin.customerLogin();
@@ -42,6 +44,65 @@ public class TransferFundsPage {
 
     public TransferFundsPage getTransferFundsPage(){
         transferFundsPage.click();
+        return new TransferFundsPage();
+    }
+
+    public TransferFundsPage enterAmount(String amountToEnter){
+        amount.sendKeys(amountToEnter);
+        return new TransferFundsPage();
+    }
+
+    public String getAmountEntered(){
+        return amount.getText().toString();
+    }
+
+    public TransferFundsPage selectFromAccount(){
+        fromAccountId.click();
+        fromAccountId.sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
+        return new TransferFundsPage();
+    }
+
+    public String getFromAccountID(){
+        return fromAccountId.getText();
+    }
+
+    public TransferFundsPage selectToAccount(){
+        toAccountId.click();
+        toAccountId.sendKeys(Keys.ENTER);
+        return new TransferFundsPage();
+    }
+
+    public String getToAccountId(){
+        return toAccountId.getText();
+    }
+
+    public TransferFundsPage processTransfer(){
+        transfer.click();
+        return new TransferFundsPage();
+    }
+
+    public boolean isTransferConfirmationDisplayed(){
+        return transferConfirmationMessage.isDisplayed();
+    }
+
+    public boolean isTransferredAmountDisplayed(){
+        return transferredAmount.isDisplayed();
+    }
+
+    public boolean isTransferFromAccountIdDisplayed(){
+        return transferFromAccountId.isDisplayed();
+    }
+
+    public boolean isTransferToAccountIdDisplayed(){
+        return transferToAccountId.isDisplayed();
+    }
+
+    public boolean isAccountActivityTextDisplayed(){
+        return accountActivity.isDisplayed();
+    }
+
+    public TransferFundsPage userLogsOut(){
+        logOut.click();
         return new TransferFundsPage();
     }
 
