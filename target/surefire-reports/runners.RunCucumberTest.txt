@@ -1,13 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 299.2 s <<< FAILURE! - in runners.RunCucumberTest
-Transfer Funds Functionality.Transfer funds successfully #1  Time elapsed: 14.168 s  <<< FAILURE!
-org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
-
-Transfer Funds Functionality.Transfer funds successfully #2  Time elapsed: 13.96 s  <<< FAILURE!
-org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
-
-Transfer Funds Functionality.Transfer funds successfully #3  Time elapsed: 14.504 s  <<< FAILURE!
-org.junit.ComparisonFailure: The expected transfer amount is different from actual amount, please check.  expected:<[]> but was:<[$1000.00]>
-
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 227.374 s - in runners.RunCucumberTest

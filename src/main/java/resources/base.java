@@ -5,6 +5,10 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -36,11 +40,44 @@ public class base {
         FileInputStream fips = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\resources\\data.properties");
         prop.load(fips);
 
+        // Maven properties and Jenkins parameterised job
+        String browserName =System.getProperty("browser");
+
+        // Enables you to choose browser, depending on request or choice. this can be passed via data.properties
+        browserName =prop.getProperty("browser");
+
+        switch (browserName){
+            case "chrome":
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                driver = new ChromeDriver();
+                break;
+            case "headless":
+                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("headless");
+                driver = new ChromeDriver(options);
+                break;
+            case "firefox":
+                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                driver = new FirefoxDriver();
+                break;
+            case "ie":
+                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                driver = new InternetExplorerDriver();
+                break;
+            case "microsoft-edge":
+                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                driver = new EdgeDriver();
+                break;
+
+            default:
+                System.out.println("Invalid browser requested");
+        }
+
         // Simple webdriver Set-up
-        System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
-        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+
         return driver;
     }
 

@@ -1,5 +1,6 @@
 PageObjects\RequestLoanPage.class
 PageObjects\RegistrationPage.class
+PageObjects\BillPayPage.class
 PageObjects\TransferFundsPage.class
 PageObjects\LoginPage.class
 resources\base.class

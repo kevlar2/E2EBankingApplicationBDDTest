@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class TransferFundsPage {
 
-    public WebDriver driver;
+    private WebDriver driver;
 
 
     public TransferFundsPage(WebDriver driver){
