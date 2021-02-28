@@ -66,6 +66,12 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- Log4j Maven dependencies-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.13.3</version>
+        </dependency>
 
     </dependencies>
     <build>

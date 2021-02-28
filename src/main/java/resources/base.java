@@ -1,5 +1,7 @@
 package resources;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -22,8 +24,8 @@ import java.util.concurrent.TimeUnit;
 public class base {
 
     public WebDriver driver;
-
     public Properties prop;
+    private static Logger log = LogManager.getLogger(base.class.getName());
 
     // Dependency Injection - needed to share a state between different Steps with a .resources.feature
     // Maven dependency for cucumber-picocontainer is needed in the pom.xml
@@ -50,28 +52,33 @@ public class base {
             case "chrome":
                 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
                 driver = new ChromeDriver();
+                log.info("Starting chrome browser");
                 break;
             case "headless":
                 System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
                 ChromeOptions options = new ChromeOptions();
                 options.addArguments("headless");
                 driver = new ChromeDriver(options);
+                log.info("Starting chrome browser in headless mode");
                 break;
             case "firefox":
                 System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
                 driver = new FirefoxDriver();
+                log.info("Starting firefox browser");
                 break;
             case "ie":
                 System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
                 driver = new InternetExplorerDriver();
+                log.info("Starting ie browser");
                 break;
             case "microsoft-edge":
                 System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
                 driver = new EdgeDriver();
+                log.info("Starting microsoft-edge browser");
                 break;
 
             default:
-                System.out.println("Invalid browser requested");
+                log.info("Invalid browser requested");
         }
 
         // Simple webdriver Set-up

@@ -1,6 +1,7 @@
-resources\StepDefinitions\TransferFundsSteps.class
+resources\StepDefinitions\BillPaySteps.class
 resources\StepDefinitions\OpenAnNewAccountSteps.class
+runners\RunCucumberTest.class
+resources\StepDefinitions\TransferFundsSteps.class
 resources\StepDefinitions\LoginSteps.class
 resources\StepDefinitions\RequestLoanSteps.class
 resources\StepDefinitions\RegistrationSteps.class
-runners\RunCucumberTest.class

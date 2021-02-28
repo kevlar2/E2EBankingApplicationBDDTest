@@ -117,7 +117,7 @@ public class BillPayPage {
     }
 
     public boolean isBillPaymentConfirmationMessageDisplayed(){
-        return billPaymentConfirmationMessage.isSelected();
+        return billPaymentConfirmationMessage.isDisplayed();
     }
 
     public boolean isBillPaymentConfirmationAmountDisplayed(){

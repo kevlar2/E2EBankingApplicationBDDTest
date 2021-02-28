@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber Reports (no 1) - Feature: Open a New Account Functionality</title>
+<title>Cucumber Reports (no 1) - Tag: @Test6</title>
 
 </head>
 <body>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Feature Report</h2>
+    <h2>Tag Report</h2>
       </div>
 </div>
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Feature</th>
+    <th>Tag</th>
         <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -128,19 +128,19 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">Open a New Account Functionality</td>
-          <td      class="passed"    >21</td>
+          <td class="tagname">@Test6</td>
+          <td      class="passed"    >15</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">21</td>
+          <td class="total">15</td>
 
           <td  class="passed"    >3</td>
           <td >0</td>
           <td class="total">3</td>
 
-          <td class="duration" data-value="20643577100">20.643</td>
+          <td class="duration" data-value="12525509900">12.525</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -167,44 +167,30 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="feature">
-        
-<div class="tags indention">
-  </div>
+      <div class="elements">
 
-        
-<div class="brief passed">
-  <span class="keyword indention">Feature</span>
-  <span class="name">Open a New Account Functionality</span>
-  
-
-  </div>
-
-        <div class="description indention">  In order to open a new Account
-  As a valid Para Bank customer
-  I want to log in successfully
-  I want to navigate to open new account page
-  I want to complete the new account opening process successfully</div>
-
-        <div class="elements inner-level">
-                      
+                  
 <div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_5_2510460631.html">Bill Pay Functionality</a>
+    </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448129.html">@Test4</a>
+           <a href="report-tag_4060448131.html">@Test6</a>
       </div>
 
   
-  <span class="lead-duration duration">7.287</span>
+  <span class="lead-duration duration">4.101</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Open a new account successfully</span>
+  <span class="name">Pay Bill successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -233,9 +219,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">12.254</span>
+  <span class="lead-duration duration">9.759</span>
 
           </div>
 
@@ -269,9 +255,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am logged into para bank with a valid <span class="argument">autotester</span> and <span class="argument">password</span></span>
+  <span class="name">I am logged in with a valid <span class="argument">autotester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.835</span>
+  <span class="lead-duration duration">0.842</span>
 
 </div>
 
@@ -295,9 +281,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I navigate to the open new account page</span>
+  <span class="name">I click on bill pay link</span>
   
-  <span class="lead-duration duration">0.402</span>
+  <span class="lead-duration duration">0.750</span>
 
 </div>
 
@@ -321,9 +307,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I select the required account information</span>
+  <span class="name">I enter payee information <span class="argument">Auto Tester 2</span>, <span class="argument">125645</span>, <span class="argument">500</span></span>
   
-  <span class="lead-duration duration">0.272</span>
+  <span class="lead-duration duration">0.843</span>
 
 </div>
 
@@ -347,9 +333,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click on open new account</span>
+  <span class="name">Click send payment</span>
   
-  <span class="lead-duration duration">1.578</span>
+  <span class="lead-duration duration">0.052</span>
 
 </div>
 
@@ -373,61 +359,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I am taken to account confirmation page</span>
+  <span class="name">I should be taken to payment confirmation screen</span>
   
-  <span class="lead-duration duration">0.335</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click account number</span>
-  
-  <span class="lead-duration duration">0.538</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should be taken account details page</span>
-  
-  <span class="lead-duration duration">3.323</span>
+  <span class="lead-duration duration">1.611</span>
 
 </div>
 
@@ -470,9 +404,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.107</span>
+  <span class="lead-duration duration">0.334</span>
 
           </div>
 
@@ -489,24 +423,28 @@ $(document).ready(function() {
   </div>
 </div>
 
-                      
+                  
 <div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_5_2510460631.html">Bill Pay Functionality</a>
+    </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448129.html">@Test4</a>
+           <a href="report-tag_4060448131.html">@Test6</a>
       </div>
 
   
-  <span class="lead-duration duration">6.868</span>
+  <span class="lead-duration duration">4.021</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Open a new account successfully</span>
+  <span class="name">Pay Bill successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -535,9 +473,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">8.792</span>
+  <span class="lead-duration duration">9.572</span>
 
           </div>
 
@@ -571,9 +509,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am logged into para bank with a valid <span class="argument">autotester2</span> and <span class="argument">password2</span></span>
+  <span class="name">I am logged in with a valid <span class="argument">autotester2</span> and <span class="argument">password2</span></span>
   
-  <span class="lead-duration duration">1.085</span>
+  <span class="lead-duration duration">1.215</span>
 
 </div>
 
@@ -597,9 +535,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I navigate to the open new account page</span>
+  <span class="name">I click on bill pay link</span>
   
-  <span class="lead-duration duration">0.410</span>
+  <span class="lead-duration duration">0.506</span>
 
 </div>
 
@@ -623,9 +561,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I select the required account information</span>
+  <span class="name">I enter payee information <span class="argument">Tau New Tester</span>, <span class="argument">567897</span>, <span class="argument">800</span></span>
   
-  <span class="lead-duration duration">0.263</span>
+  <span class="lead-duration duration">0.895</span>
 
 </div>
 
@@ -649,9 +587,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click on open new account</span>
+  <span class="name">Click send payment</span>
   
-  <span class="lead-duration duration">1.577</span>
+  <span class="lead-duration duration">0.061</span>
 
 </div>
 
@@ -675,61 +613,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I am taken to account confirmation page</span>
+  <span class="name">I should be taken to payment confirmation screen</span>
   
-  <span class="lead-duration duration">0.333</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click account number</span>
-  
-  <span class="lead-duration duration">0.394</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should be taken account details page</span>
-  
-  <span class="lead-duration duration">2.803</span>
+  <span class="lead-duration duration">1.341</span>
 
 </div>
 
@@ -772,9 +658,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.101</span>
+  <span class="lead-duration duration">0.132</span>
 
           </div>
 
@@ -791,24 +677,28 @@ $(document).ready(function() {
   </div>
 </div>
 
-                      
+                  
 <div class="element">
+      <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_5_2510460631.html">Bill Pay Functionality</a>
+    </div>
   
   
 <div class="tags indention">
       <b>Tags:</b>
-           <a href="report-tag_4060448129.html">@Test4</a>
+           <a href="report-tag_4060448131.html">@Test6</a>
       </div>
 
   
-  <span class="lead-duration duration">6.487</span>
+  <span class="lead-duration duration">4.402</span>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
     
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Open a new account successfully</span>
+  <span class="name">Pay Bill successfully</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -837,9 +727,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.initialiseWebdriver()</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.initialiseWebdriver()</span>
                         
-  <span class="lead-duration duration">8.257</span>
+  <span class="lead-duration duration">9.066</span>
 
           </div>
 
@@ -873,9 +763,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am logged into para bank with a valid <span class="argument">taunewtester</span> and <span class="argument">password</span></span>
+  <span class="name">I am logged in with a valid <span class="argument">taunewtester</span> and <span class="argument">password</span></span>
   
-  <span class="lead-duration duration">0.758</span>
+  <span class="lead-duration duration">1.289</span>
 
 </div>
 
@@ -899,9 +789,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I navigate to the open new account page</span>
+  <span class="name">I click on bill pay link</span>
   
-  <span class="lead-duration duration">0.388</span>
+  <span class="lead-duration duration">0.844</span>
 
 </div>
 
@@ -925,9 +815,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I select the required account information</span>
+  <span class="name">I enter payee information <span class="argument">Auto Tester</span>, <span class="argument">896754</span>, <span class="argument">1000</span></span>
   
-  <span class="lead-duration duration">0.258</span>
+  <span class="lead-duration duration">0.850</span>
 
 </div>
 
@@ -951,9 +841,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click on open new account</span>
+  <span class="name">Click send payment</span>
   
-  <span class="lead-duration duration">1.569</span>
+  <span class="lead-duration duration">0.066</span>
 
 </div>
 
@@ -977,61 +867,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I am taken to account confirmation page</span>
+  <span class="name">I should be taken to payment confirmation screen</span>
   
-  <span class="lead-duration duration">0.335</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click account number</span>
-  
-  <span class="lead-duration duration">0.550</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">I should be taken account details page</span>
-  
-  <span class="lead-duration duration">2.626</span>
+  <span class="lead-duration duration">1.350</span>
 
 </div>
 
@@ -1074,9 +912,9 @@ $(document).ready(function() {
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
-                          <span class="location name">resources.StepDefinitions.OpenAnNewAccountSteps.tearDown(io.cucumber.java.Scenario)</span>
+                          <span class="location name">resources.StepDefinitions.BillPaySteps.tearDown(io.cucumber.java.Scenario)</span>
                         
-  <span class="lead-duration duration">0.110</span>
+  <span class="lead-duration duration">0.154</span>
 
           </div>
 
@@ -1093,8 +931,7 @@ $(document).ready(function() {
   </div>
 </div>
 
-                  </div>
-
+        
       </div>
     </div>
   </div>
