@@ -9,6 +9,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,15 +21,16 @@ import java.util.List;
 
 public class RegistrationSteps extends base {
 
-    public WebDriver driver;
-
+    private WebDriver driver;
     RegistrationPage registrationPage;
+    private static Logger log = LogManager.getLogger(RegistrationSteps.class.getName());
 
     @Before("@Test1")
     public void initialiseWebdriver() throws IOException {
 
         driver = initialiseDriver();
         registrationPage = new RegistrationPage(driver);
+        log.info("Browser started successfully");
     }
 
     @Given("^I navigate to para bank web application$")
@@ -113,14 +116,16 @@ public class RegistrationSteps extends base {
     @After("@Test1")
     public void tearDown(Scenario scenario){
         if(scenario.isFailed()){
+            log.info("Test Failed");
             // Take screenshot and embed to report
             scenario.attach(getScreenshotWithoutPath(),
                     "image/png",
                     String.valueOf(scenario.getUri()));
-            System.out.println("Took screenshot of failed test");
+            log.info("Took screenshot of failed test");
         }
 
         driver.close();
+        log.info("Closing browser");
     }
 
 }
