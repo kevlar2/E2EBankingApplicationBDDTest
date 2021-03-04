@@ -1,0 +1,51 @@
+19:16:43.492 [main] INFO  resources.base - Starting chrome browser
+19:17:29.072 [main] INFO  resources.base - Starting chrome browser
+19:18:11.483 [main] INFO  resources.base - Starting chrome browser
+19:18:53.764 [main] INFO  resources.base - Starting chrome browser
+19:19:37.380 [main] INFO  resources.base - Starting chrome browser
+19:20:19.038 [main] INFO  resources.base - Starting chrome browser
+19:21:02.121 [main] INFO  resources.base - Starting chrome browser
+19:21:44.794 [main] INFO  resources.base - Starting chrome browser
+19:22:28.156 [main] INFO  resources.base - Starting chrome browser
+01:14:49.160 [main] INFO  resources.base - Starting chrome browser
+01:14:51.767 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:14:57.665 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:15:00.470 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:15:01.120 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:15:01.709 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:15:02.594 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:15:03.651 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:15:12.123 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:15:17.378 [main] INFO  resources.base - Starting chrome browser
+01:15:19.927 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:15:22.838 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:15:23.668 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:15:24.252 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:15:25.250 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:15:26.044 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:15:26.854 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:15:32.575 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:15:37.962 [main] INFO  resources.base - Starting chrome browser
+01:15:40.435 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:15:43.173 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:15:43.680 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:15:44.304 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:15:45.141 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:15:46.264 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:15:47.807 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:15:49.120 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:15:54.387 [main] INFO  resources.base - Starting chrome browser
+01:16:08.222 [main] INFO  resources.base - Starting chrome browser
+01:16:24.220 [main] INFO  resources.base - Starting chrome browser
+01:16:42.224 [main] INFO  resources.base - Starting chrome browser
+01:16:58.621 [main] INFO  resources.base - Starting chrome browser
+01:17:13.501 [main] INFO  resources.base - Starting chrome browser
+01:17:28.510 [main] INFO  resources.base - Starting chrome browser
+01:17:49.282 [main] INFO  resources.base - Starting chrome browser
+01:18:08.824 [main] INFO  resources.base - Starting chrome browser
+01:18:29.463 [main] INFO  resources.base - Starting chrome browser
+01:19:28.766 [main] INFO  resources.base - Starting chrome browser
+01:19:49.394 [main] INFO  resources.base - Starting chrome browser
+01:20:29.664 [main] INFO  resources.base - Starting chrome browser
+01:20:49.407 [main] INFO  resources.base - Starting chrome browser
+01:21:08.971 [main] INFO  resources.base - Starting chrome browser

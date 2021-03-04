@@ -37,12 +37,14 @@ public class RegistrationSteps extends base {
     public void i_navigate_to_para_bank_web_application() {
 
         driver.get(prop.getProperty("url"));
+        log.info("Navigating to url");
     }
 
     @When("^I click on register link$")
     public void i_click_on_register_link() {
 
         registrationPage.getRegistrationForm();
+        log.info("Navigating to registration page");
 
     }
 
@@ -56,6 +58,7 @@ public class RegistrationSteps extends base {
         registrationPage.enterCustomersPassword(password);
 
         registrationPage.confirmCustomersPassword(password);
+        log.info("Entered customers fullname and sign-on information");
 
     }
 
@@ -67,12 +70,16 @@ public class RegistrationSteps extends base {
         registrationPage.enterCustomersFullAddress(addressField.get(0), addressField.get(1), addressField.get(2), addressField.get(3) );
 
         registrationPage.enterCustomersSocialSecurityNumber(addressField.get(4));
+
+        log.info("Entered customers address details");
     }
 
     @And("^I click on register button$")
     public void i_click_on_register_button() {
 
         registrationPage.completeRegistration();
+
+        log.info("Processing customers registration");
 
     }
 
@@ -110,6 +117,8 @@ public class RegistrationSteps extends base {
 
             System.out.println(registrationPage.getCustomerUsernameError());
         }
+
+        log.info("Customer is now logged in");
 
     }
 

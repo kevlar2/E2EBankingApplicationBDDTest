@@ -1,0 +1,33 @@
+19:10:10.159 [main] INFO  resources.base - Starting chrome browser
+19:10:12.662 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+19:10:15.772 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+19:10:17.595 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+19:10:18.299 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+19:10:18.978 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+19:10:19.921 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing registration
+19:10:21.161 [main] INFO  resources.StepDefinitions.RegistrationSteps - USer is now logged in
+19:10:21.670 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+19:10:26.829 [main] INFO  resources.base - Starting chrome browser
+19:10:29.408 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+19:10:32.022 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+19:10:32.536 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+19:10:33.256 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+19:10:33.866 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+19:10:34.442 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing registration
+19:10:35.993 [main] INFO  resources.StepDefinitions.RegistrationSteps - USer is now logged in
+19:10:37.219 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+19:10:43.356 [main] INFO  resources.base - Starting chrome browser
+19:10:45.796 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+19:10:48.642 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+19:10:49.569 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+19:10:50.323 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+19:10:50.931 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+19:10:51.822 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing registration
+19:10:52.890 [main] INFO  resources.StepDefinitions.RegistrationSteps - USer is now logged in
+19:10:53.250 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+19:10:58.454 [main] INFO  resources.base - Starting chrome browser
+19:11:42.729 [main] INFO  resources.base - Starting chrome browser
+19:12:24.965 [main] INFO  resources.base - Starting chrome browser
+19:13:06.486 [main] INFO  resources.base - Starting chrome browser
+19:13:57.895 [main] INFO  resources.base - Starting chrome browser
+19:14:56.596 [main] INFO  resources.base - Starting chrome browser
