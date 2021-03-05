@@ -1,0 +1,55 @@
+01:52:52.499 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:53:00.509 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:53:05.813 [main] INFO  resources.base - Starting chrome browser
+01:53:08.316 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:53:11.189 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:53:11.959 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:53:12.649 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:53:13.265 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:53:13.700 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:53:14.813 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:53:15.899 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:53:21.197 [main] INFO  resources.base - Starting chrome browser
+01:53:23.837 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:53:26.284 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:53:26.905 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:53:27.509 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:53:28.087 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:53:28.525 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:53:29.322 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:53:30.145 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:53:35.367 [main] INFO  resources.base - Starting chrome browser
+01:53:37.825 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:53:40.599 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:53:40.600 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:53:40.810 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:53:42.389 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:53:42.501 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester
+01:53:42.598 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:53:43.540 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:53:45.073 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:53:50.368 [main] INFO  resources.base - Starting chrome browser
+01:53:52.838 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:53:55.551 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:53:55.552 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:53:55.790 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:53:56.761 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:53:56.865 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester 2
+01:53:56.943 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:53:57.581 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:54:00.272 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:54:05.972 [main] INFO  resources.base - Starting chrome browser
+01:54:08.482 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:54:11.699 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:54:11.700 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:54:11.905 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:54:12.917 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:54:13.024 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Tau New Tester
+01:54:13.111 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:54:14.022 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:54:15.568 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:54:20.871 [main] INFO  resources.base - Starting chrome browser
+01:54:23.479 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+01:54:26.190 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+01:54:27.437 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+01:54:28.179 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
