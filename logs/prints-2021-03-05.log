@@ -1,55 +1,51 @@
-01:52:52.499 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
-01:53:00.509 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
-01:53:05.813 [main] INFO  resources.base - Starting chrome browser
-01:53:08.316 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
-01:53:11.189 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
-01:53:11.959 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
-01:53:12.649 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
-01:53:13.265 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
-01:53:13.700 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
-01:53:14.813 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
-01:53:15.899 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
-01:53:21.197 [main] INFO  resources.base - Starting chrome browser
-01:53:23.837 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
-01:53:26.284 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
-01:53:26.905 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
-01:53:27.509 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
-01:53:28.087 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
-01:53:28.525 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
-01:53:29.322 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
-01:53:30.145 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
-01:53:35.367 [main] INFO  resources.base - Starting chrome browser
-01:53:37.825 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
-01:53:40.599 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
-01:53:40.600 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
-01:53:40.810 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
-01:53:42.389 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
-01:53:42.501 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester
-01:53:42.598 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
-01:53:43.540 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
-01:53:45.073 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
-01:53:50.368 [main] INFO  resources.base - Starting chrome browser
-01:53:52.838 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
-01:53:55.551 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
-01:53:55.552 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
-01:53:55.790 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
-01:53:56.761 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
-01:53:56.865 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester 2
-01:53:56.943 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
-01:53:57.581 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
-01:54:00.272 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
-01:54:05.972 [main] INFO  resources.base - Starting chrome browser
-01:54:08.482 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
-01:54:11.699 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
-01:54:11.700 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
-01:54:11.905 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
-01:54:12.917 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
-01:54:13.024 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Tau New Tester
-01:54:13.111 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
-01:54:14.022 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
-01:54:15.568 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
-01:54:20.871 [main] INFO  resources.base - Starting chrome browser
-01:54:23.479 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
-01:54:26.190 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
-01:54:27.437 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
-01:54:28.179 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+21:51:22.148 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+21:51:22.540 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+21:51:22.657 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+21:51:23.576 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Wealth Securities Dynamic Loans (WSDL)
+21:51:23.712 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Approved
+21:51:23.821 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Congratulations, your loan has been approved.
+21:51:23.910 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Validated loan screen successfully
+21:51:25.508 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+21:51:30.321 [main] INFO  resources.base - Starting chrome browser
+21:51:32.899 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+21:51:35.312 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+21:51:36.673 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+21:51:37.058 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+21:51:37.103 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for a Loan
+21:51:37.119 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+21:51:37.590 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+21:51:37.707 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+21:51:38.124 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Wealth Securities Dynamic Loans (WSDL)
+21:51:38.253 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Approved
+21:51:38.379 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Congratulations, your loan has been approved.
+21:51:38.500 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Validated loan screen successfully
+21:51:40.409 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+21:51:45.098 [main] INFO  resources.base - Starting chrome browser
+21:51:47.465 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+21:51:51.075 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+21:51:53.104 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+21:51:53.546 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+21:51:53.610 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for a Loan
+21:51:53.640 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+21:51:54.088 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+21:51:54.178 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+21:51:55.410 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Wealth Securities Dynamic Loans (WSDL)
+21:51:55.490 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Approved
+21:51:55.554 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Congratulations, your loan has been approved.
+21:51:55.603 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Validated loan screen successfully
+21:51:55.815 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+21:52:01.023 [main] INFO  resources.base - Starting chrome browser
+21:52:03.307 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Browser started successfully
+21:52:05.821 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Navigating to url
+21:52:06.932 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer is logged in successfully
+21:52:07.662 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating open new account page
+21:52:08.086 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account information
+21:52:09.695 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Open new account
+21:52:10.037 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Congratulations, your account is now open.
+21:52:10.062 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account confirmation message
+21:52:10.930 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account number
+21:52:12.446 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account and transaction details
+21:52:12.488 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - 16674
+21:52:12.546 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - SAVINGS
+21:52:12.626 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - $200.00 Balance : Available Balance $200.00
+21:52:12.673 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - March

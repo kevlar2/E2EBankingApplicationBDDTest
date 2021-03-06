@@ -149,12 +149,12 @@ public class RequestLoanSteps extends base {
     @After("@Test3")
     public void tearDown(Scenario scenario) {
         if(scenario.isFailed()){
-            log.info("Test Failed");
+            log.error("Test Failed");
             // Take screenshot and attach to report
             scenario.attach(getScreenshotWithoutPath(),
                     "image/png",
                     String.valueOf(scenario.getUri()));
-            log.info("Took screenshot of failed test");
+            log.error("Took screenshot of failed test");
         }
 
         driver.close();

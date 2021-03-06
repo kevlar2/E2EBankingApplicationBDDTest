@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 313.569 s - in runners.RunCucumberTest
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 295.378 s <<< FAILURE! - in runners.RunCucumberTest
+Open a New Account Functionality.Open a new account successfully #2  Time elapsed: 26.145 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual account ID is different from expected account number. Please check and try again expected:<[16785]> but was:<[]>
+
