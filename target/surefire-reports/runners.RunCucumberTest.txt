@@ -1,7 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 295.378 s <<< FAILURE! - in runners.RunCucumberTest
-Open a New Account Functionality.Open a new account successfully #2  Time elapsed: 26.145 s  <<< FAILURE!
-org.junit.ComparisonFailure: Actual account ID is different from expected account number. Please check and try again expected:<[16785]> but was:<[]>
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 197.807 s <<< FAILURE! - in runners.RunCucumberTest
+Request Loan Functionality.Request a Loan Successfully #1  Time elapsed: 9.377 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[Wealth Securities Dynamic Loans (WSDL)]> but was:<[ParaBank]>
+
+Request Loan Functionality.Request a Loan Successfully #2  Time elapsed: 9.349 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[Wealth Securities Dynamic Loans (WSDL)]> but was:<[ParaBank]>
+
+Request Loan Functionality.Request a Loan Successfully #3  Time elapsed: 9.53 s  <<< FAILURE!
+org.junit.ComparisonFailure: Actual text is different from expected text. Please check and try again. expected:<[Wealth Securities Dynamic Loans (WSDL)]> but was:<[ParaBank]>
 

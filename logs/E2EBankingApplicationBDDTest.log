@@ -1,0 +1,156 @@
+01:02:03.558 [main] INFO  resources.base - Starting chrome browser
+01:02:03.795 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:02:10.356 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:02:12.423 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:02:12.825 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:02:13.222 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:02:14.233 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:02:15.306 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:02:15.506 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:02:18.942 [main] INFO  resources.base - Starting chrome browser
+01:02:19.121 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:02:22.134 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:02:22.638 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:02:23.058 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:02:23.469 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:02:23.858 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:02:24.802 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:02:25.427 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:02:27.967 [main] INFO  resources.base - Starting chrome browser
+01:02:28.115 [main] INFO  resources.StepDefinitions.RegistrationSteps - Browser started successfully
+01:02:31.189 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to url
+01:02:31.777 [main] INFO  resources.StepDefinitions.RegistrationSteps - Navigating to registration page
+01:02:32.222 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers fullname and sign-on information
+01:02:32.669 [main] INFO  resources.StepDefinitions.RegistrationSteps - Entered customers address details
+01:02:33.336 [main] INFO  resources.StepDefinitions.RegistrationSteps - Processing customers registration
+01:02:34.039 [main] INFO  resources.StepDefinitions.RegistrationSteps - Customer is now logged in
+01:02:34.144 [main] INFO  resources.StepDefinitions.RegistrationSteps - Closing browser
+01:02:36.878 [main] INFO  resources.base - Starting chrome browser
+01:02:37.049 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:02:39.959 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:02:39.960 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:02:40.150 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:02:41.965 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:02:42.058 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester
+01:02:42.117 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:02:42.679 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:02:43.014 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:02:45.716 [main] INFO  resources.base - Starting chrome browser
+01:02:45.878 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:02:51.238 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:02:51.239 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:02:51.361 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:02:52.257 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:02:52.360 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Auto Tester 2
+01:02:52.429 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:02:53.225 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:02:53.829 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:02:56.258 [main] INFO  resources.base - Starting chrome browser
+01:02:56.421 [main] INFO  resources.StepDefinitions.LoginSteps - Browser started successfully
+01:02:58.993 [main] INFO  resources.StepDefinitions.LoginSteps - Navigating to url
+01:02:58.994 [main] INFO  resources.StepDefinitions.LoginSteps - Getting login page
+01:02:59.262 [main] INFO  resources.StepDefinitions.LoginSteps - Entered customers login details
+01:03:00.113 [main] INFO  resources.StepDefinitions.LoginSteps - Clicked on login button
+01:03:00.215 [main] INFO  resources.StepDefinitions.LoginSteps - Welcome Tau New Tester
+01:03:00.292 [main] INFO  resources.StepDefinitions.LoginSteps - Validating customers homepage
+01:03:00.896 [main] INFO  resources.StepDefinitions.LoginSteps - Logging out
+01:03:01.190 [main] INFO  resources.StepDefinitions.LoginSteps - Closing browser
+01:03:03.706 [main] INFO  resources.base - Starting chrome browser
+01:03:03.873 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+01:03:07.257 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+01:03:08.359 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+01:03:08.732 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+01:03:08.764 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for a Loan
+01:03:08.783 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+01:03:09.117 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+01:03:09.176 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+01:03:09.514 [main] INFO  resources.StepDefinitions.RequestLoanSteps - ParaBank
+01:03:09.549 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Test Failed
+01:03:10.015 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Took screenshot of failed test
+01:03:10.563 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+01:03:13.066 [main] INFO  resources.base - Starting chrome browser
+01:03:13.238 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+01:03:16.826 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+01:03:17.620 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+01:03:18.271 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+01:03:18.304 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for a Loan
+01:03:18.323 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+01:03:18.628 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+01:03:18.686 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+01:03:19.299 [main] INFO  resources.StepDefinitions.RequestLoanSteps - ParaBank
+01:03:19.325 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Test Failed
+01:03:19.682 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Took screenshot of failed test
+01:03:19.923 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+01:03:22.465 [main] INFO  resources.base - Starting chrome browser
+01:03:22.624 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Browser started successfully
+01:03:25.675 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to url
+01:03:27.128 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer is logged in successfully
+01:03:28.105 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Navigating to request loan page
+01:03:28.139 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for a Loan
+01:03:28.159 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Apply for loan page
+01:03:28.461 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Customer entered loan details successfully
+01:03:28.530 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Processing customers loan
+01:03:28.893 [main] INFO  resources.StepDefinitions.RequestLoanSteps - ParaBank
+01:03:28.923 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Test Failed
+01:03:29.282 [main] ERROR resources.StepDefinitions.RequestLoanSteps - Took screenshot of failed test
+01:03:29.455 [main] INFO  resources.StepDefinitions.RequestLoanSteps - Closing browser
+01:03:32.001 [main] INFO  resources.base - Starting chrome browser
+01:03:32.153 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Browser started successfully
+01:03:35.049 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Navigating to url
+01:03:35.902 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer is logged in successfully
+01:03:36.617 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating open new account page
+01:03:36.892 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account information
+01:03:38.502 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Open new account
+01:03:38.770 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Congratulations, your account is now open.
+01:03:38.794 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account confirmation message
+01:03:39.208 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account number
+01:03:40.713 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account and transaction details
+01:03:40.749 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - 20448
+01:03:40.800 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - SAVINGS
+01:03:40.870 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - $200.00 Balance : Available Balance $200.00
+01:03:40.908 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - March
+01:03:41.246 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Funds Transfer Received
+01:03:42.063 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer logs out successfully
+01:03:42.253 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Closing browser
+01:03:44.890 [main] INFO  resources.base - Starting chrome browser
+01:03:45.040 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Browser started successfully
+01:03:47.927 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Navigating to url
+01:03:48.937 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer is logged in successfully
+01:03:49.389 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating open new account page
+01:03:49.720 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account information
+01:03:51.289 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Open new account
+01:03:51.535 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Congratulations, your account is now open.
+01:03:51.561 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account confirmation message
+01:03:51.914 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account number
+01:03:53.429 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account and transaction details
+01:03:53.475 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - 20559
+01:03:53.546 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - SAVINGS
+01:03:53.620 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - $200.00 Balance : Available Balance $200.00
+01:03:53.658 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - March
+01:03:54.012 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Funds Transfer Received
+01:03:54.553 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer logs out successfully
+01:03:55.294 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Closing browser
+01:03:57.732 [main] INFO  resources.base - Starting chrome browser
+01:03:57.890 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Browser started successfully
+01:04:00.895 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Navigating to url
+01:04:02.033 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer is logged in successfully
+01:04:02.964 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating open new account page
+01:04:03.261 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account information
+01:04:04.843 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Open new account
+01:04:05.107 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Congratulations, your account is now open.
+01:04:05.132 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account confirmation message
+01:04:05.555 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Selecting account number
+01:04:07.064 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Validating account and transaction details
+01:04:07.101 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - 20670
+01:04:07.148 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - SAVINGS
+01:04:07.229 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - $200.00 Balance : Available Balance $200.00
+01:04:07.279 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - March
+01:04:07.643 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Funds Transfer Received
+01:04:08.227 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Customer logs out successfully
+01:04:08.411 [main] INFO  resources.StepDefinitions.OpenAnNewAccountSteps - Closing browser
+01:04:10.881 [main] INFO  resources.base - Starting chrome browser
+01:04:22.668 [main] INFO  resources.base - Starting chrome browser
+01:04:34.178 [main] INFO  resources.base - Starting chrome browser
+01:04:46.215 [main] INFO  resources.base - Starting chrome browser
+01:04:57.096 [main] INFO  resources.base - Starting chrome browser
+01:05:07.419 [main] INFO  resources.base - Starting chrome browser
