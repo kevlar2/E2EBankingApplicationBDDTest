@@ -86,7 +86,7 @@ public class RequestLoanSteps extends base {
     }
 
     @And("^I click on apply now$")
-    public void i_click_on_apply_now() throws Throwable {
+    public void i_click_on_apply_now(){
 
         requestLoanPage.clickApplyNow();
 
@@ -94,12 +94,19 @@ public class RequestLoanSteps extends base {
     }
 
     @And("^i should now be taken to loan confirmation screen$")
-    public void i_should_now_be_take_to_loan_confirmation_screen() throws Throwable {
+    public void i_should_now_be_take_to_loan_confirmation_screen() {
         waitExplicitlyForExpectedConditions(30, "#loanProviderName");
+
+        String expectedProviderName;
+        if(requestLoanPage.getLoanProviderName().equals("Wealth Securities Dynamic Loans (WSDL)")){
+            expectedProviderName = "Wealth Securities Dynamic Loans (WSDL)";
+        }else{
+            expectedProviderName = "ParaBank";
+        }
 
         log.info(requestLoanPage.getLoanProviderName());
         Assert.assertEquals("Actual text is different from expected text. Please check and try again.",
-                "Wealth Securities Dynamic Loans (WSDL)", requestLoanPage.getLoanProviderName());
+                expectedProviderName, requestLoanPage.getLoanProviderName());
 
         Assert.assertTrue("Response date is not displayed as expected please check and try again.",
                 requestLoanPage.isResponseDateDisplayed());
