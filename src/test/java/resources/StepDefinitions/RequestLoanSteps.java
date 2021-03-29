@@ -155,6 +155,7 @@ public class RequestLoanSteps extends base {
 
     @After("@Test3")
     public void tearDown(Scenario scenario) {
+
         if(scenario.isFailed()){
             log.error("Test Failed");
             // Take screenshot and attach to report

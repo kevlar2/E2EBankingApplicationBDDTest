@@ -1,5 +1,6 @@
 package resources;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -50,7 +51,8 @@ public class base {
 
         switch (browserName){
             case "chrome":
-                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                // System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 log.info("Starting chrome browser");
                 break;
@@ -62,17 +64,20 @@ public class base {
                 log.info("Starting chrome browser in headless mode");
                 break;
             case "firefox":
-                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                // System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 log.info("Starting firefox browser");
                 break;
             case "ie":
-                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                // System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                WebDriverManager.iedriver().setup();
                 driver = new InternetExplorerDriver();
                 log.info("Starting ie browser");
                 break;
             case "microsoft-edge":
-                System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                // System.setProperty("wbdriver.chrome.driver", System.getProperty("user.dir") + "\\webdriver\\chromedriver.exe");
+                WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 log.info("Starting microsoft-edge browser");
                 break;

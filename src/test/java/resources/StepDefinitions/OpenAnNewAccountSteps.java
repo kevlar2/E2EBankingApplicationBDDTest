@@ -158,6 +158,7 @@ public class OpenAnNewAccountSteps extends base {
 
     @After("@Test4")
     public void tearDown(Scenario scenario) {
+
         if (scenario.isFailed()) {
             log.error("Test Failed");
             // Take screenshot and attach to report

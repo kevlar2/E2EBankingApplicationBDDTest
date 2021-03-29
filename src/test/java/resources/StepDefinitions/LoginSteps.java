@@ -38,7 +38,7 @@ public class LoginSteps extends base {
     }
 
     @Given("^I am in the login page of the para bank web application$")
-    public void i_am_in_the_login_page_of_the_para_bank_web_application() throws Throwable {
+    public void i_am_in_the_login_page_of_the_para_bank_web_application() {
 
         loginPage = new LoginPage(driver);
 
@@ -46,7 +46,7 @@ public class LoginSteps extends base {
     }
 
     @When("^I enter a valid (.+) and (.+) with (.+)$")
-    public void i_enter_a_valid_username_and_password(String username, String password, String userFullName) throws Throwable {
+    public void i_enter_a_valid_username_and_password(String username, String password, String userFullName) {
 
         baseUtil.userFullName = userFullName; // Dependency Injection - needed to share a state between different Steps with a .resources.feature
 
@@ -58,7 +58,7 @@ public class LoginSteps extends base {
     }
 
     @Then("^I click Log in$")
-    public void i_click_log_in() throws Throwable {
+    public void i_click_log_in() {
 
         loginPage.customerLogin();
 
@@ -66,7 +66,7 @@ public class LoginSteps extends base {
     }
 
     @And("^I should be taken to the Overview page$")
-    public void i_should_be_taken_to_the_overview_page() throws Throwable {
+    public void i_should_be_taken_to_the_overview_page() {
 
         waitExplicitlyForExpectedConditions(30,".title");
 
@@ -88,14 +88,15 @@ public class LoginSteps extends base {
     }
 
     @After("@Test2")
-    public void tearDown(Scenario scenario) throws Throwable{
+    public void tearDown(Scenario scenario) {
+
         if(scenario.isFailed()){
-            log.info("Test Failed");
+            log.error("Test Failed");
             // Take screenshot and embed to report
             scenario.attach(getScreenshotWithoutPath(),
                     "image/png",
                     String.valueOf(scenario.getUri()));
-            log.info("Took screenshot of failed test");
+            log.error("Took screenshot of failed test");
         }
 
         driver.close();

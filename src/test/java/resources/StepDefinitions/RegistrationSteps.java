@@ -125,12 +125,12 @@ public class RegistrationSteps extends base {
     @After("@Test1")
     public void tearDown(Scenario scenario){
         if(scenario.isFailed()){
-            log.info("Test Failed");
+            log.error("Test Failed");
             // Take screenshot and embed to report
             scenario.attach(getScreenshotWithoutPath(),
                     "image/png",
                     String.valueOf(scenario.getUri()));
-            log.info("Took screenshot of failed test");
+            log.error("Took screenshot of failed test");
         }
 
         driver.close();
