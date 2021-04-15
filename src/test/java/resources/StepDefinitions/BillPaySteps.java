@@ -3,14 +3,13 @@ package resources.StepDefinitions;
 import PageObjects.BillPayPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
-import resources.base;
+import BasePage.base;
 
 import java.io.IOException;
 

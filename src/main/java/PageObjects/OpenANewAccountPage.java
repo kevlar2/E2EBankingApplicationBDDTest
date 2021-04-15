@@ -1,19 +1,16 @@
 package PageObjects;
 
+import BasePage.BaseActions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
-public class OpenANewAccountPage {
+public class OpenANewAccountPage extends BaseActions {
 
-    public WebDriver driver;
-
-    // Constructor
     public OpenANewAccountPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -40,94 +37,89 @@ public class OpenANewAccountPage {
     public String accountConfirmationMessageText =
             "Congratulations, your account is now open.";
 
-
     public OpenANewAccountPage(){
         super();
     }
 
     public OpenANewAccountPage getOpenANewAccountForm(){
-        openANewAccountPage.click();
+        click(openANewAccountPage);
         return new OpenANewAccountPage();
     }
 
     public String getUrl(){
-        return driver.getCurrentUrl().toString();
+        return getPageCurrentUrl().toString();
     }
 
     public String getPageTitle(){
-        return pageTitle.getText().toString();
+        return getText(pageTitle).toString();
     }
 
     public OpenANewAccountPage selectAccountType(String accountType){
-        Select select = new Select(accountTypeToSelect);
-        select.selectByVisibleText(accountType);
+        selectElementByVisibleText(accountTypeToSelect,accountType);
         return new OpenANewAccountPage();
     }
 
     public OpenANewAccountPage selectAccountToTransferFrom(){
-        accountToTransferFrom.click();
-        accountToTransferFrom.sendKeys(Keys.ENTER);
+        click(accountToTransferFrom);
+        enter(accountToTransferFrom, String.valueOf(Keys.ENTER));
         return new OpenANewAccountPage();
     }
 
     public OpenANewAccountPage clickOpenNewAccount(){
-        openNewAccount.click();
+        click(openNewAccount);
         return new OpenANewAccountPage();
     }
 
     public String validateOpenedAccountPageTitle(){
         // Account Opened!
-        return accountOpenedPageTitle.getText();
+        return getText(accountOpenedPageTitle).toString();
     }
 
     public String getAccountConfirmationMessage(){
-        return accountConfirmationMessage.getText();
+        return getText(accountConfirmationMessage);
     }
 
     public OpenANewAccountPage getAccountDetailsPage(){
-        newAccountID.click();
+        click(newAccountID);
         return new OpenANewAccountPage();
     }
 
     public String getNewAccountID(){
-        return newAccountID.getText();
+        return getText(newAccountID);
     }
 
     public String getAccountNumber(){
-        return accountNumber.getText();
+        return getText(accountNumber);
     }
 
     public String getAccountType(){
-        return accountType.getText();
+        return getText(accountType);
     }
 
     public String getBalance(){
-        return balance.getText();
+        return getText(balance);
     } // check balance and availableBalance are the same value
 
     public String getAvailableBalance(){
-        return availableBalance.getText();
+        return getText(availableBalance);
     }
 
     public OpenANewAccountPage selectAccountMonth(String month) throws InterruptedException {
-        Select select = new Select(accountMonth);
-        select.selectByValue(month);
-
+        selectElementByVisibleText(accountMonth,month);
         return new OpenANewAccountPage();
     }
 
     public OpenANewAccountPage selectTransactionType(String transactionType){
-        Select select = new Select(this.transactionType);
-        select.selectByValue(transactionType);
+        selectElementByVisibleText(this.transactionType, transactionType);
         return new OpenANewAccountPage();
     }
 
     public String conformTransactionOnAccount(){
-        return transaction.getText();
+        return getText(transaction);
     }
 
     public OpenANewAccountPage clickOnGo(){
-        go.click();
+        click(go);
         return new OpenANewAccountPage();
     }
 

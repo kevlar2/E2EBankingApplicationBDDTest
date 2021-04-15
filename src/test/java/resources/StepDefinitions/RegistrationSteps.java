@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import resources.base;
+import BasePage.base;
 
 import java.io.IOException;
 import java.util.List;

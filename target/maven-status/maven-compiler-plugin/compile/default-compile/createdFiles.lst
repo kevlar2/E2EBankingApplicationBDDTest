@@ -1,7 +1,9 @@
 PageObjects\RequestLoanPage.class
 PageObjects\RegistrationPage.class
+BasePage\base.class
 PageObjects\BillPayPage.class
 PageObjects\TransferFundsPage.class
 PageObjects\LoginPage.class
-resources\base.class
+BasePage\BaseActions.class
+AbstractComponents\AbstractComponents.class
 PageObjects\OpenANewAccountPage.class
