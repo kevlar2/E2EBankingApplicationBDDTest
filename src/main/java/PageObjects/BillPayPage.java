@@ -1,5 +1,6 @@
 package PageObjects;
 
+import BasePage.BaseActions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,12 +8,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class BillPayPage {
-
-    private WebDriver driver;
+public class BillPayPage extends BaseActions {
 
     public BillPayPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -48,92 +47,93 @@ public class BillPayPage {
     }
 
     public BillPayPage getBillPayPage(){
-        billPayPage.click();
+        click(billPayPage);
         return new BillPayPage();
     }
 
     public String validatePageUrl(){
-        return driver.getCurrentUrl();
+        return getPageCurrentUrl();
     }
 
     public BillPayPage enterPayeeName(String name){
-        payeeName.sendKeys(name);
+        enter(payeeName, name);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeeAddress(String address){
-        payeeAddress.sendKeys(address);
+        enter(payeeAddress, address);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeeAddressCity(String city){
-        payeeAddressCity.sendKeys(city);
+        enter(payeeAddressCity, city);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeeAddressState(String state){
-        payeeAddressState.sendKeys(state);
+        enter(payeeAddressState, state);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeeAddressZipCode(String zipCode){
-        payeeAddressZipCode.sendKeys(zipCode);
+        enter(payeeAddressZipCode, zipCode);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeePhoneNumber(String phoneNumber){
-        payeePhoneNumber.sendKeys(phoneNumber);
+        enter(payeePhoneNumber, phoneNumber);
         return new BillPayPage();
     }
 
     public BillPayPage enterPayeeAccountNumber(String accountNumber){
-        payeeAccountNumber.sendKeys(accountNumber);
+        enter(payeeAccountNumber, accountNumber);
         return new BillPayPage();
     }
 
     public BillPayPage verifyPayeeAccountNumber(String accountNumber){
-        verifyAccount.sendKeys(accountNumber);
+        enter(verifyAccount, accountNumber);
         return new BillPayPage();
     }
 
     public BillPayPage enterAmount(String amountValue){
-        amount.sendKeys(amountValue);
+        enter(amount, amountValue);
         return new BillPayPage();
     }
 
     public BillPayPage selectFromAccountNumber(){
-        fromAccountId.click();
-        fromAccountId.sendKeys(Keys.ARROW_DOWN, Keys.ENTER);
+        click(fromAccountId);
+        enter(fromAccountId, (new StringBuilder().append(String.valueOf(Keys.ARROW_DOWN))
+                .append(String.valueOf(Keys.ENTER)).toString()));
         return new BillPayPage();
     }
 
     public BillPayPage clickSendPayment(){
-        sendPayment.click();
+        click(sendPayment);
         return new BillPayPage();
     }
 
     public String getBillPaymentConfirmationMessage(){
-        return billPaymentConfirmationMessage.getText();
+        return getText(billPaymentConfirmationMessage);
     }
 
     public boolean isBillPaymentConfirmationMessageDisplayed(){
-        return billPaymentConfirmationMessage.isDisplayed();
+        return isDisplayed(billPaymentConfirmationMessage);
     }
 
     public boolean isBillPaymentConfirmationAmountDisplayed(){
-        return billPaymentConfirmationAmount.isDisplayed();
+        return isDisplayed(billPaymentConfirmationAmount);
     }
 
     public boolean isBillPaymentConfirmationFromAccountNumberDisplayed(){
-        return billPaymentConfirmationFromAccountNumber.isDisplayed();
+        return isDisplayed(billPaymentConfirmationFromAccountNumber);
     }
 
     public boolean isBillPaymentAccountActivityMessage(){
-        return billPaymentAccountActivityMessage.isDisplayed();
+        return isDisplayed(billPaymentAccountActivityMessage);
     }
 
     public BillPayPage userLogsOut(){
-        logOut.click();
+        click(logOut);
         return new BillPayPage();
     }
 

@@ -12,7 +12,6 @@ import java.util.List;
 
 public class LoginPage extends BaseActions {
 
-    // Constructor
     public LoginPage(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);

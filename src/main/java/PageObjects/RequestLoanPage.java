@@ -1,17 +1,16 @@
 package PageObjects;
 
+import BasePage.BaseActions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RequestLoanPage {
-
-    WebDriver driver;
+public class RequestLoanPage extends BaseActions {
 
     public RequestLoanPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -34,62 +33,62 @@ public class RequestLoanPage {
     }
 
     public RequestLoanPage getRequestLoanPage(){
-        requestLoanPage.click();
+        click(requestLoanPage);
 
         return new RequestLoanPage();
     }
 
     public String validatePageTitle(){
-        return pageTitle.getText().toString(); // expected value = "Apply for a Loan"
+        return getText(pageTitle).toString(); // expected value = "Apply for a Loan"
     }
 
     public RequestLoanPage enterLoanAmount(String loanAmount){
-        this.loanAmount.sendKeys(loanAmount);
+        enter(this.loanAmount, loanAmount);
         return new RequestLoanPage();
     }
 
     public RequestLoanPage enterDownPaymentAmount(String downPayment){
-        this.downPayment.sendKeys(downPayment);
+        enter(this.downPayment, downPayment);
         return new RequestLoanPage();
     }
 
     public RequestLoanPage selectFromAccount(){
-        fromAccount.click();
-        fromAccount.sendKeys(Keys.ENTER);
+        click(fromAccount);
+        enter(fromAccount, String.valueOf(Keys.ENTER));
 
         return new RequestLoanPage();
     }
 
     public RequestLoanPage clickApplyNow(){
-        applyNow.click();
+        click(applyNow);
         return new RequestLoanPage();
     }
 
     public String getLoanProviderName(){
-        return loanProviderName.getText();
+        return getText(loanProviderName);
     }
 
     public String getLoanStatus(){
 
-        return loanStatus.getText();
+        return getText(loanStatus);
     }
 
     public boolean isResponseDateDisplayed(){
 
-        return date.isDisplayed();
+        return isDisplayed(date);
     }
 
     public String getLoanConfirmationMessage(){
-        return loanConfirmationMessage.getText();
+        return getText(loanConfirmationMessage);
     }
 
     public String getLoanDisapprovalMessage(){
-       return loanDisapprovalMessage.getText();
+       return getText(loanDisapprovalMessage);
     }
 
     public boolean isNewAccountIdDisplayed(){
 
-        return activeAccountId.isDisplayed();
+        return isDisplayed(activeAccountId);
     }
 
 

@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class BaseActions extends AbstractComponents {
 
-    private WebDriver driver;
+    protected WebDriver driver;
 
     public BaseActions(WebDriver driver) {
         this.driver = driver;

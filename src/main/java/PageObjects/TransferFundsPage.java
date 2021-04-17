@@ -1,18 +1,16 @@
 package PageObjects;
 
+import BasePage.BaseActions;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class TransferFundsPage {
-
-    private WebDriver driver;
-
+public class TransferFundsPage extends BaseActions {
 
     public TransferFundsPage(WebDriver driver){
-        this.driver=driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -43,66 +41,67 @@ public class TransferFundsPage {
     }
 
     public TransferFundsPage getTransferFundsPage(){
-        transferFundsPage.click();
+        click(transferFundsPage);
         return new TransferFundsPage();
     }
 
     public TransferFundsPage enterAmount(String amountToEnter){
-        amount.sendKeys(amountToEnter);
+        enter(amount, amountToEnter);
         return new TransferFundsPage();
     }
 
     public String getAmountEntered(){
-        return amount.getText().toString();
+        return getText(amount).toString();
     }
 
     public TransferFundsPage selectFromAccount(){
-        fromAccountId.click();
-        fromAccountId.sendKeys(Keys.ARROW_DOWN,Keys.ENTER);
+        click(fromAccountId);
+        enter(fromAccountId, (new StringBuilder().append(String.valueOf(Keys.ARROW_DOWN))
+                .append(String.valueOf(Keys.ENTER)).toString()));
         return new TransferFundsPage();
     }
 
     public String getFromAccountID(){
-        return fromAccountId.getText();
+        return getText(fromAccountId);
     }
 
     public TransferFundsPage selectToAccount(){
-        toAccountId.click();
-        toAccountId.sendKeys(Keys.ENTER);
+        click(toAccountId);
+        enter(toAccountId, String.valueOf(Keys.ENTER));
         return new TransferFundsPage();
     }
 
     public String getToAccountId(){
-        return toAccountId.getText();
+        return getText(toAccountId);
     }
 
     public TransferFundsPage processTransfer(){
-        transfer.click();
+        click(transfer);
         return new TransferFundsPage();
     }
 
     public boolean isTransferConfirmationDisplayed(){
-        return transferConfirmationMessage.isDisplayed();
+        return isDisplayed(transferConfirmationMessage);
     }
 
     public boolean isTransferredAmountDisplayed(){
-        return transferredAmount.isDisplayed();
+        return isDisplayed(transferredAmount);
     }
 
     public boolean isTransferFromAccountIdDisplayed(){
-        return transferFromAccountId.isDisplayed();
+        return isDisplayed(transferFromAccountId);
     }
 
     public boolean isTransferToAccountIdDisplayed(){
-        return transferToAccountId.isDisplayed();
+        return isDisplayed(transferToAccountId);
     }
 
     public boolean isAccountActivityTextDisplayed(){
-        return accountActivity.isDisplayed();
+        return isDisplayed(accountActivity);
     }
 
     public TransferFundsPage userLogsOut(){
-        logOut.click();
+        click(logOut);
         return new TransferFundsPage();
     }
 

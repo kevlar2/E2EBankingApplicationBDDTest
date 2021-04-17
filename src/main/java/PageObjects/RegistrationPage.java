@@ -1,17 +1,15 @@
 package PageObjects;
 
+import BasePage.BaseActions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class RegistrationPage {
+public class RegistrationPage extends BaseActions {
 
-    public WebDriver driver;
-
-    // Constructor
     public RegistrationPage(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
         PageFactory.initElements(driver, this);
     }
 
@@ -39,59 +37,59 @@ public class RegistrationPage {
     }
 
     public RegistrationPage getRegistrationForm(){
-        registrationForm.click();
+        click(registrationForm);
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersFirstName(String firstName){
-        customerFirstName.sendKeys(firstName);
+        enter(customerFirstName, firstName);
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersLastName(String lastname){
-        customerLastName.sendKeys(lastname);
+        enter(customerLastName, lastname);
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersFullAddress(String street, String city, String state, String zipCode){
 
-        streetAddress.sendKeys(street);
+        enter(streetAddress, street);
 
-        addressCity.sendKeys(city);
+        enter(addressCity, city);
 
-        addressState.sendKeys(state);
+        enter(addressState, state);
 
-        addressZipcode.sendKeys(zipCode);
+        enter(addressZipcode, zipCode);
 
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersSocialSecurityNumber(String ssn){
-        customerSsn.sendKeys(ssn);
+        enter(customerSsn, ssn);
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersUsername(String username){
-        customerUsername.sendKeys(username);
+        enter(customerUsername, username);
         return new RegistrationPage();
     }
 
     public RegistrationPage enterCustomersPassword(String password){
-        customerPassword.sendKeys(password);
+        enter(customerPassword, password);
         return new RegistrationPage();
     }
 
     public RegistrationPage confirmCustomersPassword(String password){
-        confirmPassword.sendKeys(password);
+        enter(confirmPassword, password);
         return new RegistrationPage();
     }
 
     public String getCustomerUsernameError(){
-        return customerUsernameError.getText().toString();
+        return getText(customerUsernameError).toString();
     }
 
     public boolean isCustomerUsernameErrorDisplayed(){
-        return customerUsernameError.isDisplayed();
+        return isDisplayed(customerUsernameError);
     }
 
     public void enterCustomersFullName(String customersFirstName, String customersLastName){
@@ -102,25 +100,25 @@ public class RegistrationPage {
     }
 
     public RegistrationPage completeRegistration(){
-        submitButton.click();
+        click(submitButton);
         return new RegistrationPage();
     }
 
     public RegistrationPage validateAccountPageAfterRegistration(){
-        accountPageTitle.isDisplayed();
+        isDisplayed(accountPageTitle);
         return new RegistrationPage();
     }
 
     public String getCustomerWelcomeText(){
-        return customerWelcomeText.getText().toString();
+        return getText(customerWelcomeText).toString();
     }
 
     public boolean isCustomersWelcomeTextDisplayed(){
-        return customerWelcomeText.isDisplayed();
+        return isDisplayed(customerWelcomeText);
     }
 
     public RegistrationPage loginOut(){
-        logOut.click();
+        click(logOut);
         return new RegistrationPage();
     }
 
