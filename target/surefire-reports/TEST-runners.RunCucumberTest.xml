@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="375.914" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runners.RunCucumberTest" time="505.071" tests="18" errors="2" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk\bin"/>
-    <property name="sun.java.command" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire15570897274817326656\surefirebooter1582695677585799255.jar C:\Users\kevinogaga\AppData\Local\Temp\surefire15570897274817326656 2021-04-15T21-22-01_633-jvmRun1 surefire718560310014108664tmp surefire_011050366867077641919tmp"/>
+    <property name="sun.java.command" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire8099264671629383150\surefirebooter8828228605301333520.jar C:\Users\kevinogaga\AppData\Local\Temp\surefire8099264671629383150 2021-04-18T19-39-42_896-jvmRun1 surefire6836742708804324251tmp surefire_012959336861110913636tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\kevinogaga\gitHub\E2EBankingApplicationBDDTest\target\test-classes;C:\Users\kevinogaga\gitHub\E2EBankingApplicationBDDTest\target\classes;C:\Users\kevinogaga\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\kevinogaga\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kevinogaga\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kevinogaga\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kevinogaga\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kevinogaga\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-java\6.9.0\cucumber-java-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-core\6.9.0\cucumber-core-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-gherkin\6.9.0\cucumber-gherkin-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.0\cucumber-gherkin-messages-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\messages\13.2.0\messages-13.2.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-plugin\6.9.0\cucumber-plugin-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\docstring\6.9.0\docstring-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\kevinogaga\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-junit\6.9.0\cucumber-junit-6.9.0.jar;C:\Users\kevinogaga\.m2\repository\io\cucumber\cucumber-picocontainer\6.9.1\cucumber-picocontainer-6.9.1.jar;C:\Users\kevinogaga\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.1\maven-compiler-plugin-3.8.1.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\kevinogaga\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\kevinogaga\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\kevinogaga\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\kevinogaga\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\kevinogaga\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\kevinogaga\.m2\repository\org\junit\vintage\junit-vintage-engine\5.7.0\junit-vintage-engine-5.7.0.jar;C:\Users\kevinogaga\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\kevinogaga\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kevinogaga\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\kevinogaga\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\kevinogaga\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kevinogaga\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\kevinogaga\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\kevinogaga\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\kevinogaga\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\kevinogaga\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\kevinogaga\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\kevinogaga\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire15570897274817326656\surefirebooter1582695677585799255.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\kevinogaga\AppData\Local\Temp\surefire8099264671629383150\surefirebooter8828228605301333520.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -59,22 +59,146 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="Successful Registration #1" classname="Customer Registration" time="12.85"/>
-  <testcase name="Successful Registration #2" classname="Customer Registration" time="139.162"/>
-  <testcase name="Successful Registration #3" classname="Customer Registration" time="26.749"/>
-  <testcase name="Login Successful #1" classname="Login Functionality" time="14.76"/>
-  <testcase name="Login Successful #2" classname="Login Functionality" time="26.208"/>
-  <testcase name="Login Successful #3" classname="Login Functionality" time="9.2"/>
-  <testcase name="Request a Loan Successfully #1" classname="Request Loan Functionality" time="9.178"/>
-  <testcase name="Request a Loan Successfully #2" classname="Request Loan Functionality" time="8.795"/>
-  <testcase name="Request a Loan Successfully #3" classname="Request Loan Functionality" time="9.393"/>
-  <testcase name="Open a new account successfully #1" classname="Open a New Account Functionality" time="16.45"/>
-  <testcase name="Open a new account successfully #2" classname="Open a New Account Functionality" time="14.647"/>
-  <testcase name="Open a new account successfully #3" classname="Open a New Account Functionality" time="14.324"/>
-  <testcase name="Transfer funds successfully #1" classname="Transfer Funds Functionality" time="13.85"/>
-  <testcase name="Transfer funds successfully #2" classname="Transfer Funds Functionality" time="14.987"/>
-  <testcase name="Transfer funds successfully #3" classname="Transfer Funds Functionality" time="11.019"/>
-  <testcase name="Pay Bill successfully #1" classname="Bill Pay Functionality" time="11.346"/>
-  <testcase name="Pay Bill successfully #2" classname="Bill Pay Functionality" time="11.994"/>
-  <testcase name="Pay Bill successfully #3" classname="Bill Pay Functionality" time="10.565"/>
+  <testcase name="Successful Registration #1" classname="Customer Registration" time="74.111"/>
+  <testcase name="Successful Registration #2" classname="Customer Registration" time="47.22"/>
+  <testcase name="Successful Registration #3" classname="Customer Registration" time="66.771"/>
+  <testcase name="Login Successful #1" classname="Login Functionality" time="47.638"/>
+  <testcase name="Login Successful #2" classname="Login Functionality" time="64.101">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 181baa9bca7f3cf9b0b224733c7f2930
+*** Element info: {Using=css selector, value=input[name$='username']}
+]]></error>
+    <system-out><![CDATA[
+@Test2
+Scenario Outline: Login Successful                                          &amp#27;[90m# src/test/java/resources/feature/File2/Login.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in the login page of the para bank web application&amp#27;[0m             &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI enter a valid &amp#27;[0m&amp#27;[31m&amp#27;[1mautotester2&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1mpassword2&amp#27;[0m&amp#27;[31m with &amp#27;[0m&amp#27;[31m&amp#27;[1mWelcome Auto Tester 2&amp#27;[0m &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 181baa9bca7f3cf9b0b224733c7f2930
+*** Element info: {Using=css selector, value=input[name$='username']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy34.sendKeys(Unknown Source)
+	at BasePage.BaseActions.enter(BaseActions.java:37)
+	at PageObjects.LoginPage.enterCustomerUsername(LoginPage.java:32)
+	at resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(LoginSteps.java:53)
+	at âœ½.I enter a valid autotester2 and password2 with Welcome Auto Tester 2(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:11)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click Log in&amp#27;[0m                                                       &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_click_log_in()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI should be taken to the Overview page&amp#27;[0m                                &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()&amp#27;[0m
+
+    Embedding file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature [image/png 25908 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 9462
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 18, 2021 7:43:44 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login Successful #3" classname="Login Functionality" time="63.979">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ce049d5c7a0100fb7f98e12fc7c64
+*** Element info: {Using=css selector, value=input[name$='username']}
+]]></error>
+    <system-out><![CDATA[
+@Test2
+Scenario Outline: Login Successful                                           &amp#27;[90m# src/test/java/resources/feature/File2/Login.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am in the login page of the para bank web application&amp#27;[0m              &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_am_in_the_login_page_of_the_para_bank_web_application()&amp#27;[0m
+  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI enter a valid &amp#27;[0m&amp#27;[31m&amp#27;[1mtaunewtester&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1mpassword&amp#27;[0m&amp#27;[31m with &amp#27;[0m&amp#27;[31m&amp#27;[1mWelcome Tau New Tester&amp#27;[0m &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ce049d5c7a0100fb7f98e12fc7c64
+*** Element info: {Using=css selector, value=input[name$='username']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy34.sendKeys(Unknown Source)
+	at BasePage.BaseActions.enter(BaseActions.java:37)
+	at PageObjects.LoginPage.enterCustomerUsername(LoginPage.java:32)
+	at resources.StepDefinitions.LoginSteps.i_enter_a_valid_username_and_password(LoginSteps.java:53)
+	at âœ½.I enter a valid taunewtester and password with Welcome Tau New Tester(file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature:11)
+&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI click Log in&amp#27;[0m                                                        &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_click_log_in()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI should be taken to the Overview page&amp#27;[0m                                 &amp#27;[90m# resources.StepDefinitions.LoginSteps.i_should_be_taken_to_the_overview_page()&amp#27;[0m
+
+    Embedding file:///C:/Users/kevinogaga/gitHub/E2EBankingApplicationBDDTest/src/test/java/resources/feature/File2/Login.feature [image/png 25908 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 3648
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 18, 2021 7:44:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Request a Loan Successfully #1" classname="Request Loan Functionality" time="13.479"/>
+  <testcase name="Request a Loan Successfully #2" classname="Request Loan Functionality" time="9.516"/>
+  <testcase name="Request a Loan Successfully #3" classname="Request Loan Functionality" time="9.605"/>
+  <testcase name="Open a new account successfully #1" classname="Open a New Account Functionality" time="13.97"/>
+  <testcase name="Open a new account successfully #2" classname="Open a New Account Functionality" time="13.188"/>
+  <testcase name="Open a new account successfully #3" classname="Open a New Account Functionality" time="13.848"/>
+  <testcase name="Transfer funds successfully #1" classname="Transfer Funds Functionality" time="11.125"/>
+  <testcase name="Transfer funds successfully #2" classname="Transfer Funds Functionality" time="11.003"/>
+  <testcase name="Transfer funds successfully #3" classname="Transfer Funds Functionality" time="11.617"/>
+  <testcase name="Pay Bill successfully #1" classname="Bill Pay Functionality" time="13.677"/>
+  <testcase name="Pay Bill successfully #2" classname="Bill Pay Functionality" time="10.493"/>
+  <testcase name="Pay Bill successfully #3" classname="Bill Pay Functionality" time="9.309"/>
 </testsuite>

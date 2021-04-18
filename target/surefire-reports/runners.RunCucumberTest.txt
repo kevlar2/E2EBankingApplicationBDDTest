@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: runners.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 375.914 s - in runners.RunCucumberTest
+Tests run: 18, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 505.071 s <<< FAILURE! - in runners.RunCucumberTest
+Login Functionality.Login Successful #2  Time elapsed: 64.101 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 181baa9bca7f3cf9b0b224733c7f2930
+*** Element info: {Using=css selector, value=input[name$='username']}
+
+Login Functionality.Login Successful #3  Time elapsed: 63.979 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"input[name$='username']"}
+  (Session info: chrome=89.0.4389.128)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TBSD3T7', ip: '192.168.0.16', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.128, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\KEVINO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59136}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 713ce049d5c7a0100fb7f98e12fc7c64
+*** Element info: {Using=css selector, value=input[name$='username']}
+
