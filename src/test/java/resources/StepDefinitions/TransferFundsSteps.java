@@ -19,7 +19,7 @@ public class TransferFundsSteps extends base {
 
     private WebDriver driver;
     public TransferFundsPage transferFundsPage;
-    private static Logger log = LogManager.getLogger(TransferFundsSteps.class.getName());
+    private static final Logger log = LogManager.getLogger(TransferFundsSteps.class.getName());
 
     @Before("@Test5")
     public void initialiseWebdriver() throws IOException {

@@ -25,7 +25,7 @@ public class LoginSteps extends base {
 
         this.baseUtil =util;
     }
-    private static Logger log = LogManager.getLogger(LoginSteps.class.getName());
+    private static final Logger log = LogManager.getLogger(LoginSteps.class.getName());
 
     @Before("@Test2")
     public void initialiseWebdriver() throws IOException {

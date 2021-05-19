@@ -23,7 +23,7 @@ public class RegistrationSteps extends base {
 
     private WebDriver driver;
     RegistrationPage registrationPage;
-    private static Logger log = LogManager.getLogger(RegistrationSteps.class.getName());
+    private static final Logger log = LogManager.getLogger(RegistrationSteps.class.getName());
 
     @Before("@Test1")
     public void initialiseWebdriver() throws IOException {

@@ -24,7 +24,7 @@ public class RequestLoanSteps extends base {
     private WebDriver driver;
     RequestLoanPage requestLoanPage;
     LoginPage userLogin;
-    private static Logger log = LogManager.getLogger(RequestLoanSteps.class.getName());
+    private static final Logger log = LogManager.getLogger(RequestLoanSteps.class.getName());
 
     @Before("@Test3")
     public void initialiseWebdriver() throws IOException {

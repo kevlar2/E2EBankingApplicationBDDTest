@@ -7,6 +7,8 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import BasePage.base;
@@ -16,16 +18,19 @@ import java.io.IOException;
 public class BillPaySteps extends base {
 
     private WebDriver driver;
-    BillPayPage bilPayPage;
-
-    String billPayPageExpectedUrl = "https://parabank.parasoft.com/parabank/billpay.htm";
+    BillPayPage bilPayPage = null;
+    private static final Logger log = LogManager.getLogger(BillPaySteps.class.getName());
 
     @Before("@Test6")
     public void initialiseWebdriver() throws IOException {
 
         driver = initialiseDriver();
+        log.info("Browser started successfully");
+
         bilPayPage = new BillPayPage(driver);
+
         driver.get(prop.getProperty("url"));
+        log.info("Navigating to url");
 
     }
 
@@ -33,6 +38,7 @@ public class BillPaySteps extends base {
     public void i_am_logged_in_with_a_valid_and(String username, String password) {
 
         bilPayPage.userLogin(username, password);
+        log.info("Customer is logged in successfully");
 
     }
 
@@ -41,15 +47,16 @@ public class BillPaySteps extends base {
 
         bilPayPage.getBillPayPage();
 
+        log.info("Navigating to bill page page");
+
         Assert.assertEquals("Expected page url is not equal to actual url. Please check",
-                billPayPageExpectedUrl,bilPayPage.validatePageUrl());
+                BillPayPage.BILL_PAY_PAGE_EXPECTED_URL,bilPayPage.validatePageUrl());
     }
 
     @And("^I enter payee information (.+), (.+), (.+)$")
     public void i_enter_payee_information_(String payeeName, String accountNumber, String amount) {
 
         bilPayPage.enterPayeeName(payeeName);
-
         bilPayPage.enterPayeeAddress("44 London Road");
         bilPayPage.enterPayeeAddressCity("London");
         bilPayPage.enterPayeeAddressState("Greater London");
@@ -60,6 +67,8 @@ public class BillPaySteps extends base {
         bilPayPage.selectFromAccountNumber();
         bilPayPage.enterAmount(amount);
 
+        log.info("Enter payee details");
+
 
     }
 
@@ -68,6 +77,7 @@ public class BillPaySteps extends base {
 
         bilPayPage.clickSendPayment();
 
+        log.info("Click send payment");
     }
 
     @Then("^I should be taken to payment confirmation screen$")
@@ -90,18 +100,23 @@ public class BillPaySteps extends base {
         Assert.assertTrue("Account activity message is not displayed. Please check",
                 bilPayPage.isBillPaymentAccountActivityMessage());
 
+        log.info("Validating payment confirmation screen");
+
         bilPayPage.userLogsOut();
+
+        log.info("Logging out");
     }
 
     @After("@Test6")
     public void tearDown(Scenario scenario) {
 
         if(scenario.isFailed()){
+            log.error("Test Failed");
             // Take screenshot and attach to report
             scenario.attach(getScreenshotWithoutPath(),
                     "image/png",
                     String.valueOf(scenario.getUri()));
-            System.out.println("Took screenshot of failed test");
+            log.error("Took screenshot of failed test");
         }
 
         driver.close();

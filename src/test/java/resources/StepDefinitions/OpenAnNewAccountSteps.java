@@ -25,7 +25,7 @@ public class OpenAnNewAccountSteps extends base {
     LoginPage userLogin;
     private String accountID;
     private final String accountType = "SAVINGS";
-    private static Logger log = LogManager.getLogger(OpenAnNewAccountSteps.class.getName());
+    private static final Logger log = LogManager.getLogger(OpenAnNewAccountSteps.class.getName());
 
     @Before("@Test4")
     public void initialiseWebdriver() throws IOException {

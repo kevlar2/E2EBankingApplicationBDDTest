@@ -33,6 +33,8 @@ public class BillPayPage extends BaseActions {
     @FindBy(css = "div[ng-show='showResult'] p:nth-child(3)") private WebElement billPaymentAccountActivityMessage;
     @FindBy(linkText = "Log Out") private WebElement logOut;
 
+    public static final String BILL_PAY_PAGE_EXPECTED_URL = "https://parabank.parasoft.com/parabank/billpay.htm";
+
 
     public BillPayPage(){
         super();
