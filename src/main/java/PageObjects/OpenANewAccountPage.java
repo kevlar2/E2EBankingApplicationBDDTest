@@ -33,8 +33,8 @@ public class OpenANewAccountPage extends BaseActions {
     @FindBy(css = "input[value='Go']") WebElement go;
 
 
-    public String pageUrl = "https://parabank.parasoft.com/parabank/openaccount.htm";
-    public String accountConfirmationMessageText =
+    public static final String PAGE_URL = "https://parabank.parasoft.com/parabank/openaccount.htm";
+    public static final String ACCOUNT_CONFIRMATION_MESSAGE_TEXT =
             "Congratulations, your account is now open.";
 
     public OpenANewAccountPage(){

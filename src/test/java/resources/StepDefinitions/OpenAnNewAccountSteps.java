@@ -58,7 +58,7 @@ public class OpenAnNewAccountSteps extends base {
         openANewAccountPage.getOpenANewAccountForm();
 
         Assert.assertEquals("Actual url text is different from expected url text. Please check and try again",
-               openANewAccountPage.pageUrl , openANewAccountPage.getUrl());
+                OpenANewAccountPage.PAGE_URL, openANewAccountPage.getUrl());
 
         Assert.assertEquals("Actual url text is different from expected url text. Please check and try again",
                 "Open New Account" , openANewAccountPage.getPageTitle());
@@ -97,7 +97,7 @@ public class OpenAnNewAccountSteps extends base {
         log.info(openANewAccountPage.getAccountConfirmationMessage());
 
         Assert.assertEquals("Actual account confirmation text is different from expected text. Please check and try again",
-                openANewAccountPage.accountConfirmationMessageText, openANewAccountPage.getAccountConfirmationMessage());
+                OpenANewAccountPage.ACCOUNT_CONFIRMATION_MESSAGE_TEXT, openANewAccountPage.getAccountConfirmationMessage());
 
         log.info("Validating account confirmation message");
     }
